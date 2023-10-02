@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="fr">
+<html dir="ltr" lang="en">
 
 <!-- Mirrored from creativelayers.net/themes/freeio-html/page-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Sep 2023 16:25:26 GMT -->
 <head>
@@ -52,7 +52,7 @@
         <div class="row align-items-center justify-content-between">
           <div class="col-auto pe-0">
             <div class="d-flex align-items-center">
-              <a class="header-logo bdrr1 pr30 pr5-xl" href="index.html"><img src="images/header-logo-dark.svg" alt="Header Logo"></a>
+              <a class="header-logo bdrr1 pr30 pr5-xl" href="index.html"><img src="images/WhatsApp Image 2023-09-30 à 02.25.35_64d14a90.jpg" alt="Header Logo" width="100px" height="50px"></a>
               <div class="home1_style">
                 <div id="mega-menu">
                   <a class="btn-mega fw500" href="#"><span class="pl30 pl10-xl pr5 fz15 vam flaticon-menu"></span> Categories</a>
@@ -813,50 +813,95 @@
       </ul>
     </nav>
   </div>
-  <div class="body_content">
+  <div class="body_content" style="background-color: #00865a;">
     <!-- Our SignUp Area -->
     <section class="our-register">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
-            <div class="main-title text-center">
-              <h2 class="title">Register</h2>
-              <p class="paragraph">Give your visitor a smooth online experience with a solid UX design</p>
+            <div class="main-title text-center" style="color: white;">
+              <h2 class="title" style="color: white;">Formulaire de paiement</h2>
+              <p class="paragraph" style="color: white;">Offrez à votre visiteur une expérience en ligne fluide avec une conception UX solide</p>
             </div>
           </div>
         </div>
         <div class="row wow fadeInRight" data-wow-delay="300ms">
           <div class="col-xl-6 mx-auto">
             <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
-              <div class="mb30">
+              <!-- <div class="mb30">
                 <h4>Let's create your account!</h4>
                 <p class="text mt20">Already have an account? <a href="page-login.html" class="text-thm">Log In!</a></p>
+              </div> -->
+              <div class="Noms">
+                <div class="mb25">
+                  <label class="form-label fw500 dark-color">Noms</label>
+                  <input type="text" class="form-control" placeholder="NZE">
               </div>
               <div class="mb25">
-                <label class="form-label fw500 dark-color">Display Name</label>
-                <input type="text" class="form-control" placeholder="ali">
+                <label class="form-label fw500 dark-color">Prénoms</label>
+                <input type="text" class="form-control" placeholder="Mathieu">
               </div>
+            
               <div class="mb25">
-                <label class="form-label fw500 dark-color">Username</label>
-                <input type="text" class="form-control" placeholder="alitf">
+                <label class="form-label fw500 dark-color">Adresse Email</label>
+                <input type="email" class="form-control" placeholder="exemple@gmail.com">
               </div>
-              <div class="mb25">
-                <label class="form-label fw500 dark-color">Email</label>
-                <input type="email" class="form-control" placeholder="alitfn58@gmail.com">
-              </div>
-              <div class="mb15">
+              <div class="telephone">
+                <label class="form-label fw500 dark-color">Numéro de téléphone</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="categorie" style="margin-top: 30px;">
+                <label class="form-label fw500 dark-color">Catégories</label>
+                <input type="text" list="civilites3" class="form-control" > 
+                <datalist id="civilites3">
+                    <option value="Entreprise">Entreprise</option>
+                    <option value="Particulier">Particulier</option>
+                    <option value="Utilisateur">Utilisateur</option>
+               </datalist> 
+            </div>
+
+            <div class="pays_ville">
+                <div class="pays" style="margin-top: 30px;">
+                    <label class="form-label fw500 dark-color">Pays</label>
+                    <input type="text" list="civilites" class="form-control">
+                    <datalist id="civilites">
+                        <option value="Gabon">Gabon</option>
+                        <option value="France">France</option>
+                        <option value="Espagne">Espagne</option>
+                      </datalist>
+                </div>
+
+                <div class="ville" style="margin-top: 30px;">
+                    <label class="form-label fw500 dark-color">Ville</label>
+                    <input type="text" list="civilites2" class="form-control"> 
+                    <datalist id="civilites2">
+                        <option value="Libreville">Libreville</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Madrid">Madrid</option>
+                      </datalist> 
+                </div>
+            </div>
+            <div class="description" style="margin-top: 30px;">
+              <label for="message" class="form-label fw500 dark-color">Description</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Décrivez votre service"></textarea>
+          </div>
+           
+              <!-- <div class="mb15">
                 <label class="form-label fw500 dark-color">Password</label>
                 <input type="text" class="form-control" placeholder="*******">
+              </div> -->
+              <input type="file" class="televerser" download="">
+             <dic class="paiement" style="display: flex; gap: 10px;">
+                <a href=""><img src="images/mastercard.png" alt="" width="60px" height="30px"></a>
+                <a href=""><img src="images/Airtel money.jpeg" alt="" width="40px" height="30px"></a>
+                <a href=""><img src="images/Mobicash.jpeg" alt="" width="40px" height="30px"></a>
               </div>
-              <div class="d-grid mb20">
-                <button class="ud-btn btn-thm default-box-shadow2" type="button">Creat Account <i class="fal fa-arrow-right-long"></i></button>
+              
+              <div class="d-grid mb20" style="margin-top : 30px;">
+                <button class="ud-btn btn-thm default-box-shadow2" type="button">Confirmer</button>
               </div>
-              <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
-              <div class="d-md-flex justify-content-between">
-                <button class="ud-btn btn-fb fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-facebook-f pr10"></i> Continue Facebook</button>
-                <button class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-google"></i> Continue Google</button>
-                <button class="ud-btn btn-apple fz14 fw400" type="button"><i class="fab fa-apple"></i> Continue Apple</button>
-              </div>
+              <!-- <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div> -->
+              
             </div>
           </div>
         </div>
