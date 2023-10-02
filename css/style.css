@@ -87,13 +87,6 @@ body {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-.mb30 h3,p{
-  text-align: center;
-}
-.mb30{
-  background-image: url(images/5colos.png);
-  
-}
 
 a,
 .btn {
@@ -146,9 +139,6 @@ h6 {
   font-family: var(--title-font-family);
   color: var(--headings-color);
   line-height: 1.3125;
-}
-.our-login{
-  background-color: #00865a ;
 }
 
 .h1,
@@ -476,17 +466,6 @@ h2 {
   font-weight: 500;
 }
 
-.pays_ville {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.Noms {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .mailchimp-style2 {
   position: relative;
 }
@@ -499,13 +478,7 @@ h2 {
   font-weight: 400;
   height: 70px;
   padding-left: 30px;
-  outline: 0;
 }
-.form-control{
-  outline: 0;
-  border: none;
-}
-
 .mailchimp-style2 .form-control:placeholder {
   color: var(--headings-color);
   font-size: 14px;
@@ -516,7 +489,6 @@ h2 {
   box-shadow: none;
   outline: none;
 }
-
 .mailchimp-style2 button {
   height: 50px;
   position: absolute;
@@ -758,7 +730,7 @@ h2 {
 .dashboard_sidebar_list .sidebar_list_item a:active,
 .dashboard_sidebar_list .sidebar_list_item a:focus,
 .dashboard_sidebar_list .sidebar_list_item a.-is-active {
-  background-color: #222222;
+  background-color: #00865a;
   color: #ffffff;
 }
 
@@ -1169,7 +1141,6 @@ h2 {
   height: 100px;
   padding: 20px 30px;
   width: 100%;
-  outline: 0;
 }
 .message_container .message_input button.btn {
   flex: 1;
@@ -1177,17 +1148,6 @@ h2 {
   position: absolute;
   right: 20px;
   top: 20px;
-}
-input:focus{
-  border: 1px solid #00865a;
-}
-.description input{
-	height: 200px;
-}
-
-.televerser{
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 .inbox_chatting_box {
@@ -3426,19 +3386,11 @@ section {
     padding: 60px 0;
   }
 }
-.our-register{
-  background-color: #00865a;
-}
 
 .main-title,
 .main-title2 {
   position: relative;
   margin-bottom: 60px;
-<<<<<<< HEAD
-  color: #fff;
-=======
-  color: #FFFF;
->>>>>>> a1a54d7b75b0c219e18967138cdde2fd42bf5cd5
 }
 @media (max-width: 991.98px) {
   .main-title,
@@ -3448,17 +3400,11 @@ section {
 }
 .main-title .title,
 .main-title2 .title {
-  color: #ffff;
   font-style: normal;
-  color: #fff;
 }
 .main-title .paragraph,
 .main-title2 .paragraph {
-<<<<<<< HEAD
-  color:#fff;
-=======
-  color: #ffff;
->>>>>>> a1a54d7b75b0c219e18967138cdde2fd42bf5cd5
+  color: var(--headings-color);
   font-family: var(--title-font-family);
 }
 
@@ -7800,6 +7746,7 @@ li.mm-listitem:focus {
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
 }
+
 .body_content_wrapper:before {
   background: rgba(4, 30, 66, 0.5);
   bottom: 0;
@@ -9572,7 +9519,6 @@ input:focus-visible {
     bottom: 0;
   }
 }
- 
 
 .navi_pagi_bottom_left.owl-theme .owl-dots {
   bottom: -18px;
@@ -9750,7 +9696,6 @@ input:focus-visible {
   bottom: 2px;
   left: 50px;
 }
-
 @media (max-width: 991.98px) {
   .home6-listing-single-slider.owl-theme .owl-dots {
     position: absolute;
@@ -11423,7 +11368,7 @@ input:focus-visible {
 }
 
 .wa {
-  width: 5rem !important;
+  width: auto !important;
 }
 
 .text-white-light {
