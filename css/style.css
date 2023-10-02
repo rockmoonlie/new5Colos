@@ -66,6 +66,10 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   --headings-color: #222222;
   --body-text-color: #6B7177 ;
 }
+/* mes modifications apporté */
+h3, p{
+  text-align: center;
+}
 
 /* Typography Styles */
 html,
