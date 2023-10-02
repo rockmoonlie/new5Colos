@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 30px;
+}
+
+/* Containeur principal */
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #868484;
+  width: 55%;
+  height: 550px;
+  border-radius: 35px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.container h3{
+  position: absolute;
+  top: 60px;
+  left: 190px;
+}
+
+.container h1{
+  font-size: 28px;
+}
+
+.container span{
+  color: #47C83e;
+  display: block;
+}
+
+/* conteneur de la div parent des asides */
+
+
+
+.choice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 30px;
+  top: 50px;
+}
+
+.choice .pre,.sec{
+  border: 2px solid #ddd;
+  height: 150px;
+  width: 220px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.choice .pre:hover{
+  border: 2px solid #47C83e;
+}
+
+.choice .sec:hover{
+  border: 2px solid #47C83e;
+}
+
+/* Formulaire */
+
+input[type="radio"]{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #027f53;
+}
+
+/* Boutton du form */
+.btn{
+  width: 350px;
+  height: 35px;
+  background-color: #47C83e;
+  border-radius: 20px;
+  margin-top: 80px;
+  border: 1px solid #47C83e;
+}
+
+.btn:hover{
+  background-color: #027f53;
+}
+
+.btn h4{
+  color: white;
+}
+
+.text{
+  position: absolute;
+  top: 280px;
+  display: 
+  inline;
+}
