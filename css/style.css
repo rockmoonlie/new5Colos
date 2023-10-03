@@ -734,7 +734,7 @@ h2 {
 .dashboard_sidebar_list .sidebar_list_item a:active,
 .dashboard_sidebar_list .sidebar_list_item a:focus,
 .dashboard_sidebar_list .sidebar_list_item a.-is-active {
-  background-color: #00865a;
+  background-color: #fdc110;
   color: #ffffff;
 }
 
