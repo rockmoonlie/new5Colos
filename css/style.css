@@ -258,7 +258,7 @@ h2 {
   background-color: #F1FCFA;
 }
 .footer-style1.at-home6 {
-  background-color: #1F4B3F;
+  background-color:  var(--headings-color);
 }
 .footer-style1.at-home7, .footer-style1.at-home8 {
   background-color: #ffffff;
@@ -11368,7 +11368,7 @@ input:focus-visible {
 }
 
 .wa {
-  width: auto !important;
+  width: 7rem !important;
 }
 
 .text-white-light {
