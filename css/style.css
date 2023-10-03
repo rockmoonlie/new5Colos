@@ -722,15 +722,15 @@ h2 {
 .user_setting .dropdown-menu .dropdown-item.active span,
 .user_setting .dropdown-menu .dropdown-item:hover,
 .user_setting .dropdown-menu .dropdown-item:hover span {
-  background-color: #222222;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .dashboard_sidebar_list .sidebar_list_item a:hover,
 .dashboard_sidebar_list .sidebar_list_item a:active,
 .dashboard_sidebar_list .sidebar_list_item a:focus,
 .dashboard_sidebar_list .sidebar_list_item a.-is-active {
-  background-color: #00865a;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -798,7 +798,7 @@ h2 {
 }
 
 .dashboard__sidebar {
-  background-color: #ffffff;
+  background-color: #00aeff;
   flex-shrink: 0;
   height: calc(100% - 90px);
   left: 0;
@@ -8471,7 +8471,7 @@ li.mm-listitem:focus {
   border: 1px solid #222222;
 }
 .mbp_pagination .page-item.active .page-link {
-  background-color: #5BBB7B;
+  background-color: #000000;
   color: #ffffff;
 }
 .mbp_pagination .page-link {
@@ -10701,12 +10701,13 @@ input:focus-visible {
   border-collapse: separate;
 }
 .table-style3 .t-head {
-  background-color: #F1FCFA;
+  background-color: #000000;
   border-radius: 4px;
 }
 .table-style3 .t-head th {
   border: 0;
-  color: var(--headings-color);
+  color: #fff
+  ;
   font-family: var(--title-font-family);
   font-weight: 500;
   font-size: 17px;
