@@ -3,15 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #47C83e;
+}
 header{
   height: 30px;
 }
 
 /* Containeur principal */
 .container{
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  border: 3px solid #868484;
+  border: 3px solid #d8d1d1;
   width: 55%;
   height: 550px;
   border-radius: 35px;
