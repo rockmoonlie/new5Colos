@@ -67,6 +67,72 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   --body-text-color: #6B7177 ;
 }
 
+/*animation diaspora image */
+.section-first{
+  position: relative;
+  width: 100%; 
+  height: 960px;
+  background-image: url("../images/background/Happy-businesswoman-working.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  position: inherit;
+  animation: section-first 30s ease-in-out infinite both; 
+}
+
+.divp{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+.texte{
+  position: absolute;
+  width: 55%;
+  top: 200px;
+  left: 140px;
+}
+.texte h3{
+  color: white;
+} 
+@keyframes section-first{
+  0%{
+    background-image: url('../images/background/Happy-businesswoman-working.jpg');
+  }
+  30%{
+    background-image: url('../images/background/lady.jpg');
+    
+  }
+  50%{
+    background-image: url('../images/about/girlcall.jpg');
+    
+  }
+  70%{
+    background-image: url('../images/background/menlaptop.jpg');
+  }
+  
+  90%{
+    
+    background-image: url('../images/about/girllaptop.jpg');
+  }
+  100%{
+    background-image: url('../images/about/yellowscarf.jpg');
+  }
+
+}
+
+.solid{
+  width: 100%;
+  height: 545px;
+  background-color: lightgray;
+  display: flex;
+  justify-content:end;
+  
+}
+
+
 /* Typography Styles */
 html,
 body {
@@ -507,6 +573,7 @@ h2 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  width: 200px;
 }
 .link-style1 a:hover {
   color: #ffffff;
@@ -4036,7 +4103,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  height: 100%;
+  height: 80%;
   width: 51%;
 }
 @media (max-width: 767.98px) {
@@ -5104,6 +5171,13 @@ section {
 .why-chose-list .list-one {
   position: relative;
 }
+
+.list-one:hover{
+  box-shadow: #6767682a 5px 5px 10px 5px;
+  transition: all 1.5s;
+  background-color: rgba(128, 128, 128, 0.199);
+}
+
 .why-chose-list .list-one .list-icon {
   color: #1F4B3F;
   display: block;
@@ -7297,7 +7371,7 @@ header.nav-homepage-style .ace-responsive-menu .visible_list a.list-item:before 
   transition: all 0.4s ease;
 }
 header.nav-homepage-style .ace-responsive-menu a {
-  color: #ffffff;
+  color: #fff;
   font-family: var(--title-font-family);
   font-weight: 600;
 }
