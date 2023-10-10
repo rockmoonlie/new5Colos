@@ -66,6 +66,67 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   --headings-color: #222222;
   --body-text-color: #6B7177 ;
 }
+.logos-br-white-light-pr30-pr5-xl{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  
+}
+
+
+
+.container {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  margin-bottom: 10px;
+  height: 500px;
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px ;
+  border-radius: 5px;
+}
+label{
+  color: #000000;text-align: left;
+}
+
+
+
+
+iframe {
+border: none;
+width: 100%;
+}
+
+
+
 
 /*animation diaspora image */
 .section-first{
