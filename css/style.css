@@ -11557,3 +11557,9 @@ hr {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*modif navbar a color*/
+
+.navi li a{
+  color: #000000;
+}
