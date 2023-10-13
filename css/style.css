@@ -5176,12 +5176,6 @@ section {
   position: relative;
 }
 
-.list-one:hover{
-  box-shadow: #6767682a 5px 5px 10px 5px;
-  transition: all 1.5s;
-  background-color: rgba(128, 128, 128, 0.199);
-}
-
 .why-chose-list .list-one .list-icon {
   color: #1F4B3F;
   display: block;
