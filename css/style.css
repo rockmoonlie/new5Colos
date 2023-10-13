@@ -76,7 +76,8 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   background-size: cover;
   /* background-position: center; */
   position: inherit;
-  animation: section-first 30s ease-in-out infinite both; 
+  animation: section-first 25s infinite both; 
+  transition: 0.5;
 }
 
 .divp{
@@ -96,12 +97,15 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
 }
 .texte h3{
   color: white;
+
+  /* Animations du slider dans le hero */
+
 } 
 @keyframes section-first{
   0%{
     background-image: url('../images/background/Happy-businesswoman-working.jpg');
   }
-  30%{
+  25%{
     background-image: url('../images/background/lady.jpg');
     
   }
@@ -109,17 +113,17 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
     background-image: url('../images/about/girlcall.jpg');
     
   }
-  70%{
+  75%{
     background-image: url('../images/background/menlaptop.jpg');
   }
   
-  90%{
+  100%{
     
     background-image: url('../images/about/girllaptop.jpg');
   }
-  100%{
+  /* 100%{
     background-image: url('../images/about/yellowscarf.jpg');
-  }
+  } */
 
 }
 
@@ -4509,7 +4513,7 @@ section {
   -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
   -moz-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
   -o-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
-  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.19);
 }
 .iconbox-style1.contact-style {
   border: none;
@@ -5172,11 +5176,11 @@ section {
   position: relative;
 }
 
-.list-one:hover{
+/* .list-one:hover{
   box-shadow: #6767682a 5px 5px 10px 5px;
   transition: all 1.5s;
   background-color: rgba(128, 128, 128, 0.199);
-}
+} */
 
 .why-chose-list .list-one .list-icon {
   color: #1F4B3F;
@@ -11553,3 +11557,9 @@ hr {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*modif navbar a color*/
+
+.navi li a{
+  color: #000000;
+}
