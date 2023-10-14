@@ -4001,11 +4001,11 @@ section {
 }
 
 .cta-banner3 .cta-banner3-img {
-  height: 100%;
+  height: 50%;
   position: absolute;
   right: 0;
   top: 0;
-  width: 50%;
+  width: 40%;
 }
 @media (max-width: 1199.98px) {
   .cta-banner3 .cta-banner3-img {
@@ -7253,8 +7253,7 @@ header.menu-home10.stricky.stricky-fixed .ace-responsive-menu .visible_list a.li
   background-color: #222222;
 }
 header.nav-homepage-style {
-  background-color: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  background-color: #3ea07a;
   padding: 7px 0;
   position: fixed;
   width: 100%;
