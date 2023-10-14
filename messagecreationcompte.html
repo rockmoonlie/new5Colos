@@ -7,40 +7,56 @@
 </head>
 <body>
     <style>
-        
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Marck+Script&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
 .thank-you-block {
     background-color: #f2f2f2;
     border-radius: 10px;
     padding: 20px;
     width: 500px;
     margin: 0 auto;
-    background-color: #fdc110;
+    background-color: #027f53;
     text-align: center;
-    margin-top: 100px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .thank-you-block .icon {
     font-size: 3em;
-    color: #fff; 
+    color: white; 
    
 }
 
 .thank-you-block h1 {
     font-size: 30px;
+    font-family:'DM Sans';
+    font-weight: 700;
 }
 
 .thank-you-block p {
     font-size: 20px;
+    font-family:'DM Sans';
+    font-weight:500;
 }
 
 .thank-you-block .btn {
     display: inline-block;
-    background-color: #027f53;
+    background-color: #fdc210;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
     margin: 0 auto;
+    width: 3rem;
 }
 
 .thank-you-block .btn:hover {
@@ -48,11 +64,12 @@
 }
     </style>
     <div class="thank-you-block">
+        <div style="color: white;">
+            <h1>Bienvenue sur 5Colos</h1>
+            <p>Votre inscription a été traitée avec succès, et votre espace client est prêt. </p>
+            <a href="accueil-client.html" class="btn"><div class="icon">&#10004;</div></a>
+        </div>
         
-        <h1>Merci d'avoir rejoint 5Colos</h1>
-        <p>Merci infiniment pour votre confiance et pour avoir choisi 5Colos. 
-            <br><br>Votre inccription a été traité avec succès, et votre espace client est prêt. </p>
-        <a href="accueil-client.html" class="btn"><div class="icon">&#10004;</div></a>
     </div> 
     
 </body>

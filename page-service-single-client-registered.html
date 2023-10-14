@@ -52,15 +52,15 @@
             <div class="col-auto px-0 px-xl-3">
               <div class="d-flex align-items-center justify-content-between">
                 <div class="logos">
-                  <a class="header-logo logo1" href="index.html"><h3 style="color:white; padding-right: 20px;"><strong>5Colos</strong></h3></a> 
-                   <a class="header-logo logo2" href="index.html"><h3 style="color:white; padding-right: 20px;"><strong>5Colos</strong></h3></a> 
+                  <a class="header-logo logo1" href="accueil-client.html"><h3 style="color:white; padding-right: 20px;"><strong>5Colos</strong></h3></a> 
+                   <a class="header-logo logo2" href="accueil-client.html"><h3 style="color:white; padding-right: 20px;"><strong>5Colos</strong></h3></a> 
                 </div>
                 <!-- Responsive Menu Structure-->
                 <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                  <li class="visible_list"> <a class="list-item" href="index.html"><span class="title" style="color:white;">Accueil</span></a>
+                  <li class="visible_list"> <a class="list-item" href="accueil-client.html"><span class="title" style="color:white;">Accueil</span></a>
                     <!-- Level Two-->  
                   </li>
-                  <li class="visible_list"> <a class="list-item" href="#"><span class="title" style="color:white;">Catégorie de services</span></a>
+                  <li class="visible_list"> <a class="list-item" href="page-service-all-client-registered.html"><span class="title" style="color:white;">Nos services</span></a>
                     <ul >
                       <li><a href="#"><span class="title">Développement web</span></a>
                         <ul>
@@ -70,9 +70,9 @@
                           <li><a href="#">Site dynamique</a></li>
                         </ul>
                       </li>
-                      <li> <a href="page-service-v6.html"><span class="title"> Infographie</span></a>
+                      <li> <a href="page-service-v6 -client.html"><span class="title"> Infographie</span></a>
                         <ul>
-                          <li><a href="#">Création de logo</a></li>
+                          <li><a href="page-service-single-client-registered.html">Création de logo</a></li>
                           <li><a href="#">Conception de dépliants et affiches</a></li>
                           <li><a href="#">Conception de CV</a></li>
                           <li><a href="#">Cartes de visite</a></li>
@@ -96,206 +96,128 @@
                       </li>
                     </ul>
                   </li>
-                  <li> <a class="list-item pe-0" href="page-contact.html" style="color:white;">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-auto pe-0 pe-xl-3">
-              <div class="d-flex align-items-center">
-                <a class="login-info mr15-xl mr30" href="page-login.html" style="color:white;">Se connecter</a>
-                <a class="ud-btn btn-white add-joining bdrs50 text-thm2" href="choix_Aron.html">S'inscrire</a>
-              </div>
+                  <li> <a class="list-item pe-0" href="page-contact-client.html" style="color:white;">Contact</a></li>
+                <li class="user_setting">
+                  <div class="dropdown">
+                    <a class="btn" href="#" data-bs-toggle="dropdown">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                      <!-- <img src="images/resource/user.png" alt="user.png">  -->
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="user_setting_content">
+                        <p class="fz15 fw400 ff-heading mb10 pl30">Commencer</p>
+                        <a class="dropdown-item active" href="page-dashboard-client.html"><i class="flaticon-home mr10"></i>Dashboard</a>
+                        <a class="dropdown-item" href="#"><i class="flaticon-like mr10"></i>Mes commandes</a>
+                        <!-- <p class="fz15 fw400 ff-heading mt30 pl30">Account</p> -->
+                        <a class="dropdown-item" href="#"><i class="flaticon-photo mr10"></i>Mon profil</a>
+                        <a class="dropdown-item" href="index.html"><i class="flaticon-logout mr10"></i>Se deconnecter</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              <!-- </ul><a class="ud-btn btn-white add-joining" href="choix_Aron.html">S'inscrire</a> -->
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- Search Modal -->
-    <div class="search-modal">
-      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-xmark"></i></button>
-            </div>
-            <div class="modal-body">
-              <div class="popup-search-field search_area">
-                <input type="text" class="form-control border-0" placeholder="What service are you looking for today?">
-                <label><span class="far fa-magnifying-glass"></span></label>
-                <button class="ud-btn btn-thm" type="submit">Recherche</button>
-              </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Search Modal -->
+  <div class="search-modal">
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-xmark"></i></button>
+          </div>
+          <div class="modal-body">
+            <div class="popup-search-field search_area">
+              <input type="text" class="form-control border-0" placeholder="Quel service recherchez-vous aujourd'hui?">
+              <label><span class="far fa-magnifying-glass"></span></label>
+              <button class="ud-btn btn-thm" type="submit">Recherche</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Search Modal -->
-    <div class="search-modal">
-      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-xmark"></i></button>
-            </div>
-            <div class="modal-body">
-              <div class="popup-search-field search_area">
-                <input type="text" class="form-control border-0" placeholder="What service are you looking for today?">
-                <label><span class="far fa-magnifying-glass"></span></label>
-                <button class="ud-btn btn-thm" type="submit">Recherche</button>
-              </div>
+  </div>
+  <div class="hiddenbar-body-ovelay"></div>
+
+  <!-- Mobile Nav  -->
+  <div id="page" class="mobilie_header_nav stylehome1">
+    <div class="mobile-menu">
+      <div class="header bb-white-light">
+        <div class="menu_and_widgets">
+          <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+            <a class="mobile_logo" href="accueil-client.html"><h3 style="color:white;"><strong>5Colos</strong></h3></a>
+            <div class="right-side text-end">
+              <a class="text-white" href="page-signin.html">S'inscrire</a>
+              <a class="menubar ml30" href="#menu"><img src="images/white-nav-icon.svg" alt=""></a>
             </div>
           </div>
         </div>
+        <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
       </div>
     </div>
-    <div class="hiddenbar-body-ovelay"></div>
-  
-    <!-- Mobile Nav  -->
-    <div id="page" class="mobilie_header_nav stylehome1">
-      <div class="mobile-menu">
-        <div class="header bdrb1">
-          <div class="menu_and_widgets">
-            <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-              <a class="mobile_logo" href="#"><img src="images/header-logo-dark.svg" alt=""></a>
-              <div class="right-side text-end">
-                <a class="" href="page-login.html">join</a>
-                <a class="menubar ml30" href="#menu"><img src="images/mobile-dark-nav-icon.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
-        </div>
-      </div>
-      <!-- /.mobile-menu -->
-      <nav id="menu" class="">
-        <ul>
-          <li><span>Home</span>
-            <ul>
-              <li><a href="index.html">Home V1</a></li>
-              <li><a href="index2.html">Home V2</a></li>
-              <li><a href="index3.html">Home V3</a></li>
-              <li><a href="index4.html">Home V4</a></li>
-              <li><a href="index5.html">Home V5</a></li>
-              <li><a href="index6.html">Home V6</a></li>
-              <li><a href="index7.html">Home V7</a></li>
-              <li><a href="index8.html">Home V8</a></li>
-              <li><a href="index9.html">Home V9</a></li>
-              <li><a href="index10.html">Home V10</a></li>
-            </ul>
-          </li>
-          <li><span>Browse Jobs</span>
-            <ul>
-              <li><span>Services</span>
-                <ul>
-                  <li><a href="page-service-v1.html">Service v1</a></li>
-                  <li><a href="page-service-v2.html">Service v2</a></li>
-                  <li><a href="page-service-v3.html">Service v3</a></li>
-                  <li><a href="page-service-v4.html">Service v4</a></li>
-                  <li><a href="page-service-v5.html">Service v5</a></li>
-                  <li><a href="page-service-v6.html">Service v6</a></li>
-                  <li><a href="page-service-v7.html">Service v7</a></li>
-                  <li><a href="page-service-all.html">Service All</a></li>
-                  <li><a href="page-service-single.html">Service Single</a></li>
-                </ul>
-              </li>
-              <li><span>Projects</span>
-                <ul>
-                  <li><a href="page-project-v1.html">Project v1</a></li>
-                  <li><a href="page-project-single.html">Project Single</a></li>
-                </ul>
-              </li>
-              <li><span>Job View</span>
-                <ul>
-                  <li><a href="page-job-list-v1.html">Job list v1</a></li>
-                  <li><a href="page-job-list-v2.html">Job list v2</a></li>
-                  <li><a href="page-job-list-v3.html">Job list V3</a></li>
-                  <li><a href="page-job-list-single.html">Job Single</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><span>Users</span>
-            <ul>
-              <li><span>Dashboard</span>
-                <ul>
-                  <li><a href="page-dashboard.html">Dashboard</a></li>
-                  <li><a href="page-dashboard-proposal.html">Proposal</a></li>
-                  <li><a href="page-dashboard-save.html">Saved</a></li>
-                  <li><a href="page-dashboard-message.html">Message</a></li>
-                  <li><a href="page-dashboard-reviews.html">Reviews</a></li>
-                  <li><a href="page-dashboard-invoice.html">Invoice</a></li>
-                  <li><a href="page-dashboard-payouts.html">Payouts</a></li>
-                  <li><a href="page-dashboard-statement.html">Statement</a></li>
-                  <li><a href="page-dashboard-manage-service.html">Manage Service</a></li>
-                  <li><a href="page-dashboard-add-service.html">Add Services</a></li>
-                  <li><a href="page-dashboard-manage-jobs.html">Manage Jobs</a></li>
-                  <li><a href="page-dashboard-manage-project.html">Manage Project</a></li>
-                  <li><a href="page-dashboard-create-project.html">Create Project</a></li>
-                  <li><a href="page-dashboard-profile.html">My Profile</a></li>
-                </ul>
-              </li>
-              <li><span>Employee</span>
-                <ul>
-                  <li><a href="page-employee-v1.html">Employee V1</a></li>
-                  <li><a href="page-employee-v2.html">Employee V2</a></li>
-                  <li><a href="page-employee-single.html">Employee Single</a></li>
-                </ul>
-              </li>
-              <li><span>Freelancer</span>
-                <ul>
-                  <li><a href="page-freelancer-v1.html">Freelancer V1</a></li>
-                  <li><a href="page-freelancer-v2.html">Freelancer V2</a></li>
-                  <li><a href="page-freelancer-v3.html">Freelancer V3</a></li>
-                  <li><a href="page-freelancer-single.html">Freelancer Single</a></li>
-                </ul>
-              </li>
-              <li><a href="page-become-seller.html">Become Seller</a></li>
-            </ul>
-          </li>
-          <li><span>Pages</span>
-            <ul>
-              <li><span>About</span>
-                <ul>
-                  <li><a href="page-about.html">About v1</a></li>
-                  <li><a href="page-about-v2.html">About v2</a></li>
-                </ul>
-              </li>
-              <li><span>Shop</span>
-                <ul>
-                  <li><a href="page-shop.html">List</a></li>
-                  <li><a href="page-shop-single.html">Single</a></li>
-                  <li><a href="page-shop-cart.html">Cart</a></li>
-                  <li><a href="page-shop-checkout.html">Checkout</a></li>
-                  <li><a href="page-shop-order.html">Order</a></li>
-                </ul>
-              </li>
-              <li><a href="page-contact.html">Contact</a></li>
-              <li><a href="page-error.html">404</a></li>
-              <li><a href="page-faq.html">Faq</a></li>
-              <li><a href="page-help.html">Help</a></li>
-              <li><a href="page-invoice.html">Invoices</a></li>
-              <li><a href="page-login.html">Login</a></li>
-              <li><a href="page-pricing.html">Pricing</a></li>
-              <li><a href="page-register.html">Register</a></li>
-              <li><a href="page-terms.html">Terms</a></li>
-              <li><a href="page-ui-element.html">UI Elements</a></li>
-            </ul>
-          </li>
-          <li><span>Blog</span>
-            <ul>
-              <li><a href="page-blog-v1.html">List V1</a></li>
-              <li><a href="page-blog-v2.html">List V2</a></li>
-              <li><a href="page-blog-v3.html">List V3</a></li>
-              <li><a href="page-blog-single.html">Single</a></li>
-            </ul>
-          </li>
-          <!-- Only for Mobile View -->
-        </ul>
-      </nav>
-    </div>
-  
+    <!-- /.mobile-menu -->
+    <nav id="menu" class="">
+      <ul>
+        <li><span>Accueil</span>
+        </li>
+        <li><span>Catégories des services</span>
+          <ul>
+            <li><a href="page-service-v6.html"><span class="title"></span><span>Développement Web</span>
+              <ul>
+                <li><a href="page-service-single.html">Front-end</a></li>
+                <li><a href="page-service-single.html">Back-end</a></li>
+                <li><a href="page-service-single.html">Site statique</a></li>
+                <li><a href="page-service-single.html">Site dynamique</a></li>
+              </ul>
+            </li>
+            <li><a href="page-service-v6.html"><span class="title"></span><span>Infographie</span>
+              <ul>
+                <li><a href="page-service-single.html">Création de logo</a></li>
+                <li><a href="page-service-single.html">Conception de dépliants et affiches</a></li>
+                <li><a href="page-service-single.html">Conception de CV</a></li>
+                <li><a href="page-service-single.html">Cartes de visite</a></li>
+              </ul>
+            </li>
+            <li><a href="page-service-v6.html"><span class="title"></span><span>Média Sociaux</span>
+              <ul>
+                <li><a href="page-service-single.html">Gestion des réseaux sociaux</a></li>
+                <li><a href="page-service-single.html">Community Manager</a></li>
+                <li><a href="page-service-single.html">Content Manager</a></li>
+                <li><a href="page-service-single.html">Consultant média sociaux</a></li>
+              </ul>
+            </li>
+            <li><a href="page-service-v6.html"><span class="title"></span><span>Audio Visuel</span>
+              <ul>
+                <li><a href="page-service-single.html">Réalisateur</a></li>
+                <li><a href="page-service-single.html">Montage audiovisuel</a></li>
+                <li><a href="page-service-single.html">Ingénieur du son</a></li>
+                <li><a href="page-service-single.html">Directeur de la photographie</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+          <ul>
+            <li><a href="page-contact.html">Contact</a></li>
+          </ul>
+        </li>
+        <li><span>Blog</span>
+          <ul>
+            <li><a href="page-blog-v1.html">List V1</a></li>
+            <li><a href="page-blog-v2.html">List V2</a></li>
+            <li><a href="page-blog-v3.html">List V3</a></li>
+            <li><a href="page-blog-single.html">Single</a></li>
+          </ul>
+        </li>
+        <!-- Only for Mobile View -->
+      </ul>
+    </nav>
+  </div>
+
     <!-- <div class="body_content">
       <section class="categories_list_section overflow-hidden">
         <div class="container">
@@ -711,19 +633,19 @@
                           <!-- <div class="mb20">
                             <label class="fw500 ff-heading dark-color mb-2">Email</label>
                             <input type="email" class="form-control" placeholder="creativelayers088">
-                          </div>
+                          </div> 
                         </div>
                         <div class="col-md-12">
                           <div class="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb20">
                             <!-- <label class="custom_checkbox fz15 ff-heading">Save my name, email, and website in this browser for the next time I comment.
                               <input type="checkbox">
                               <span class="checkmark"></span>
-                            </label>
+                            </label> 
                           </div>
                           <a style="position: relative; bottom: 200px;" href="#" class="ud-btn btn-thm">Envoyer<i class="fal fa-arrow-right-long"></i></a>
                         </div>
                       </div>
-                    </form>-->
+                    </form> -->
                   </div>
                 </div>
               </div>
@@ -768,7 +690,7 @@
                               </ul>
                             </div>
                             <div class="d-grid">
-                              <a href="first_login.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
+                              <a href="page-register.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
                             </div>
                           </div>
                         </div>
@@ -797,7 +719,7 @@
                               </ul>
                             </div>
                             <div class="d-grid">
-                              <a href="first_login.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
+                              <a href="page-register.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
                             </div>
                           </div>
                         </div>
@@ -826,7 +748,7 @@
                               </ul>
                             </div>
                             <div class="d-grid">
-                              <a href="first_login.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
+                              <a href="page-register.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
                             </div>
                           </div>
                         </div>
@@ -859,7 +781,7 @@
                               </ul>
                             </div>
                             <div class="d-grid">
-                              <a href="first_login.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
+                              <a href="page-register.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
                             </div>
                           </div>
                         </div>
@@ -893,7 +815,7 @@
                               </ul>
                             </div>
                             <div class="d-grid">
-                              <a href="first_login.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
+                              <a href="page-register.html" class="ud-btn btn-thm">Commander<i class="fal fa-arrow-right-long"></i></a>
                             </div>
                           </div>
                         </div>

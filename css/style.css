@@ -4009,7 +4009,7 @@ section {
   position: absolute;
   right: 0;
   top: 0;
-  width: 50%;
+  width: 46%;
 }
 @media (max-width: 1199.98px) {
   .cta-banner3 .cta-banner3-img {
@@ -5175,12 +5175,6 @@ section {
 .why-chose-list .list-one {
   position: relative;
 }
-
-/* .list-one:hover{
-  box-shadow: #6767682a 5px 5px 10px 5px;
-  transition: all 1.5s;
-  background-color: rgba(128, 128, 128, 0.199);
-} */
 
 .why-chose-list .list-one .list-icon {
   color: #1F4B3F;
