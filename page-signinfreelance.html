@@ -669,7 +669,7 @@
   <div class="body_content">
     <!-- Our SignUp Area -->
     <section class="our-register" style="background-color: #00865a; color: #ffffff; " >
-      <div class="container">
+      <div class="container" id="glenn2" >
         <div class="row" >
           <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms" >
             <div class="main-title text-center">
@@ -678,7 +678,7 @@
             </div>
           </div>
         </div>
-        <div class="row wow fadeInRight" data-wow-delay="300ms">
+        <div class="row wow fadeInRight classGlenn"  data-wow-delay="300ms">
           <div class="col-xl-6 mx-auto">
             <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12" >
               <div class="mb30">
@@ -702,7 +702,7 @@
                 <input type="number" class="form-control" placeholder="062770779">
               </div>
               <div class="d-grid mb20">
-                <button class="ud-btn btn-thm default-box-shadow2" type="button"><a href="index.html">Soumettre</a> <i class="fal fa-arrow-right-long"></i></button>
+                <button class="ud-btn btn-thm default-box-shadow2" id="glenn" type="button" ><a href="#popup">Soumettre</a> <i class="fal fa-arrow-right-long"></i></button>
               </div>
               <div class="hr_content mb20"><hr><span class="hr_top_text">Ou</span></div>
               <div class="d-md-flex justify-content-between">
@@ -715,6 +715,44 @@
         </div>
       </div>
     </section>
+
+
+    <!-- Mon popup/modale -->
+
+    <div class="container">
+      <!-- <button type="submit" class="btn" onclick="openPopup()">Submit</button> -->
+      <div class="popup" id="popup">
+          <img src="images/popup.jpeg">
+          <h2>Congratulation!</h2>
+          <p>Vos coordonnées ont été soumises avec succès. <br> Merci!</p>
+          <button type="button" onclick="closePopup()"><a href="index.html">OK</a></button>
+      </div>
+  </div>
+
+  <!-- Partie scripte du Popup -->
+  <script>
+
+      const boutton = document.querySelector('#glenn');
+      boutton.addEventListener('click', () => {
+        return openPopup()
+      })
+      
+
+      let popup = document.getElementById("popup");
+
+      function openPopup(){
+          popup.classList.add("open-popup");
+      }
+
+      function closePopup(){
+          popup.classList.remove("open-popup");
+      }
+
+      const elements = document.querySelector('#glenn2')
+      function caacherElement (){
+        elements.classList.remove('container');
+      }
+  </script>
 
     <!-- Our Footer --> 
     <!-- <section class="footer-style1 pt25 pb-0">
