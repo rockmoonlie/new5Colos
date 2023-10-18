@@ -11575,14 +11575,14 @@ hr {
   place-items: center;
   /* overflow: hidden; */
   
-}
+/* }
 .slide-track{
   display: flex;
   width: calc(250px * 12);
   animation: scroll 40s linear infinite;
   /* gap: 100px; */
 }
-
+/* 
 @keyframes scroll {
   0%{
       transform: translateX(0);
@@ -11605,4 +11605,5 @@ img{
 }
 img:hover{
   transform:translateZ(20px);
-} */
+}
+ */
