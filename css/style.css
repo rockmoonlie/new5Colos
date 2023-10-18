@@ -3449,7 +3449,7 @@ h2 {
 /*	Brands  */
 /*  Commons Styles of Template  */
 section {
-  padding: 120px 0;
+  /* padding: 120px 0; */
   position: relative;
 }
 @media (max-width: 991.98px) {
@@ -10469,7 +10469,7 @@ input:focus-visible {
 }
 
 .agent-page-meta .form-control {
-  border-radius: 40px;
+  
   height: 44px;
   max-width: 300px;
   width: 100%;
