@@ -3448,10 +3448,12 @@ h2 {
 
 /*	Brands  */
 /*  Commons Styles of Template  */
-section {
-  padding: 120px 0;
+ section{
+  padding:120px 0;
   position: relative;
-}
+ }
+
+
 @media (max-width: 991.98px) {
   section {
     padding: 60px 0;
@@ -11557,3 +11559,51 @@ hr {
 .navi li a{
   color: #000000;
 }
+
+/* body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+} */
+
+/* .slider{
+  height: 180px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  /* overflow: hidden; */
+  
+/* }
+.slide-track{
+  display: flex;
+  width: calc(250px * 12);
+  animation: scroll 40s linear infinite;
+  /* gap: 100px; */
+}
+/* 
+@keyframes scroll {
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+      transform: translateX(calc(-250px * 6));
+  }
+}
+.slide{
+  height: 52px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+img{
+  width: 100%;
+  transition: transform 5s;
+}
+img:hover{
+  transform:translateZ(20px);
+}
+ */
