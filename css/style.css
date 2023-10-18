@@ -3448,10 +3448,12 @@ h2 {
 
 /*	Brands  */
 /*  Commons Styles of Template  */
-section {
-  padding: 120px 0;
+ section{
+  padding:120px 0;
   position: relative;
-}
+ }
+
+
 @media (max-width: 991.98px) {
   section {
     padding: 60px 0;
