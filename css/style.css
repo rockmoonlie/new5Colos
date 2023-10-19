@@ -165,6 +165,53 @@ margin: 0;
   transition: 0.5;
 }
 
+/* Animation des partenaires */
+
+#E241{
+  animation: 2s slider;
+  transition: 0.5;
+}
+#E242{
+  
+}
+#E243{
+  
+}
+#E244{
+  
+}
+#E245{
+  
+}
+#E246{
+  
+}
+@keyframes section-first{
+  0%{
+    background-image: url('');
+  }
+  25%{
+    background-image: url('');
+    
+  }
+  50%{
+    background-image: url('');
+    
+  }
+  75%{
+    background-image: url('');
+  }
+  
+  100%{
+    
+    background-image: url('');
+  }
+  /* 100%{
+    background-image: url('../images/about/yellowscarf.jpg');
+  } */
+
+}
+
 .divp{
   width: 100%;
   height: 100vh;
