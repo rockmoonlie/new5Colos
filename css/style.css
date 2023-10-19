@@ -4009,7 +4009,7 @@ section {
   position: absolute;
   right: 0;
   top: 0;
-  width: 50%;
+  width: 46%;
 }
 @media (max-width: 1199.98px) {
   .cta-banner3 .cta-banner3-img {
@@ -4513,7 +4513,7 @@ section {
   -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
   -moz-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
   -o-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
-  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.19);
 }
 .iconbox-style1.contact-style {
   border: none;
@@ -5174,12 +5174,6 @@ section {
 }
 .why-chose-list .list-one {
   position: relative;
-}
-
-.list-one:hover{
-  box-shadow: #6767682a 5px 5px 10px 5px;
-  transition: all 1.5s;
-  background-color: rgba(128, 128, 128, 0.199);
 }
 
 .why-chose-list .list-one .list-icon {
@@ -11833,3 +11827,9 @@ input[type="submit"]:active
 } */
 
 /*# sourceMappingURL=style.css.map */
+
+/*modif navbar a color*/
+
+.navi li a{
+  color: #000000;
+}
