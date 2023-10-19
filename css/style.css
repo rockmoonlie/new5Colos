@@ -3534,9 +3534,10 @@ h2 {
 /*	Brands  */
 /*  Commons Styles of Template  */
 section {
-  padding: 120px 0;
   position: relative;
-}
+ }
+
+
 @media (max-width: 991.98px) {
   section {
     padding: 60px 0;
@@ -4094,7 +4095,7 @@ section {
   position: absolute;
   right: 0;
   top: 0;
-  width: 50%;
+  width: 46%;
 }
 @media (max-width: 1199.98px) {
   .cta-banner3 .cta-banner3-img {
@@ -5260,12 +5261,6 @@ section {
 .why-chose-list .list-one {
   position: relative;
 }
-
-/* .list-one:hover{
-  box-shadow: #6767682a 5px 5px 10px 5px;
-  transition: all 1.5s;
-  background-color: rgba(128, 128, 128, 0.199);
-} */
 
 .why-chose-list .list-one .list-icon {
   color: #1F4B3F;
@@ -10560,7 +10555,7 @@ input:focus-visible {
 }
 
 .agent-page-meta .form-control {
-  border-radius: 40px;
+  
   height: 44px;
   max-width: 300px;
   width: 100%;
@@ -11648,3 +11643,51 @@ hr {
 .navi li a{
   color: #000000;
 }
+
+/* body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+} */
+
+/* .slider{
+  height: 180px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  /* overflow: hidden; */
+  
+/* }
+.slide-track{
+  display: flex;
+  width: calc(250px * 12);
+  animation: scroll 40s linear infinite;
+  /* gap: 100px; */
+}
+/* 
+@keyframes scroll {
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+      transform: translateX(calc(-250px * 6));
+  }
+}
+.slide{
+  height: 52px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+img{
+  width: 100%;
+  transition: transform 5s;
+}
+img:hover{
+  transform:translateZ(20px);
+}
+ */

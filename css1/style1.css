@@ -1,0 +1,39 @@
+body{
+ background-image: url("image/1603893247-plateforme-freelance.jpg");
+}
+
+section{
+ text-align: justify;
+ padding:20px;
+ padding-left: 100px;
+ height:800px;
+}
+h1 ,h4{
+ color:black;
+ font-size: 25px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ line-height: 30px;
+ font-weight: bold;
+ 
+}
+h1{
+ line-height:40px;
+ font-size: 30px;
+}
+h3{
+ line-height: 60px;
+ color:white;
+}
+.h4{
+ line-height:20px ;
+
+}
+p{ color:black;
+ text-align: justify;
+
+}
+span{
+ color:green;
+
+}
+ 
