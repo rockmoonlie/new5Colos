@@ -66,6 +66,91 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   --headings-color: #222222;
   --body-text-color: #6B7177 ;
 }
+.main-title-text-center{
+  margin: 0 10px 0 10px;
+}
+h2{ 
+  margin: 10px;
+  text-align: center;
+}
+.mere{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  perspective: 1000px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin: 10px;
+}
+
+.card-inners {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.cards:hover .card-inners {
+  transform: rotateY(180deg);
+}
+
+.card-fronts,
+.card-backs {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cards h4 {
+  text-align: ju;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.card-fronts {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-backs {
+  background-color: #fff;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+  text-align: center;
+}
+
+.cards p {
+  margin: 0;
+}
+
+.cards h4 {
+margin: 0;
+}
+
 
 /*animation diaspora image */
 .section-first{
