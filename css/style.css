@@ -296,9 +296,18 @@ margin: 0;
 .texte h3{
   color: white;
 
-  /* Animations du slider dans le hero */
+  /
 
-} 
+}
+  /* Style d'aron */
+
+  .price{
+    color: #027f53;
+    font-weight: bold;
+  }
+
+
+ /* Animations du slider dans le hero */
 @keyframes section-first{
   0%{
     background-image: url('../images/background/Happy-businesswoman-working.jpg');
