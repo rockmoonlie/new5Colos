@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*
 Project/Template Name:  Freeio - Freelance Marketplace HTML Template
 Template Url: 
@@ -118,7 +119,7 @@ h2{
 }
 
 .card-fronts {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.479);
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -11848,8 +11849,8 @@ hr {
 }
 
 /* Mon popup/modale de la page de connexion */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-*
+
+
 /* {
   margin: 0;
   padding: 0;
