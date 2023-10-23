@@ -12063,7 +12063,7 @@ input[type="submit"]:active
   width: calc(250px * 12);
   animation: scroll 40s linear infinite;
   /* gap: 100px; */
-}
+
 /* 
 @keyframes scroll {
   0%{
