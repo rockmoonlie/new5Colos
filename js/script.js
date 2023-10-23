@@ -410,3 +410,94 @@
 
 
 })(window.jQuery);
+
+//swiper
+// Import Swiper from the Swiper library, if not already imported
+
+document.addEventListener("DOMContentLoaded", function () {
+  const mySwiper = new Swiper('.swiper-container', {
+    speed: 4500,
+    direction: 'horizontal',
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+    },
+    zoom: true,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    }, /*
+    mousewheel: {
+      invert: true,
+    },*/
+    autoplay: {
+      delay: 2000,
+    },
+    loop: true,
+  });
+
+  // Get the autoplay control buttons
+  const autoplayStartButton = document.querySelector('.autoplay.play');
+  const autoplayStopButton = document.querySelector('.autoplay.stop');
+
+  // Add click event listeners to the autoplay control buttons
+  if (autoplayStartButton) {
+    autoplayStartButton.addEventListener('click', function () {
+      mySwiper.autoplay.start();
+    });
+  }
+
+  if (autoplayStopButton) {
+    autoplayStopButton.addEventListener('click', function () {
+      mySwiper.autoplay.stop();
+    });
+  }
+
+  // Pause on mouseenter
+  mySwiper.el.addEventListener('mouseenter', function () {
+    mySwiper.autoplay.stop();
+  });
+
+  // Resume on mouseleave
+  mySwiper.el.addEventListener('mouseleave', function () {
+    mySwiper.autoplay.start();
+  });
+});
+
+/**
+ * popup
+ */
+const modalPopup = document.querySelector(".modal-popup");
+  const close = document.querySelector(".close");
+
+
+  window.addEventListener("load",function(){
+ 
+   showPopup();
+   // setTimeout(function(){
+   //   loginPopup.classList.add("show");
+   // },5000)
+
+  })
+
+  function showPopup(){
+        const timeLimit = 5 // seconds;
+        let i=0;
+        const timer = setInterval(function(){
+         i++;
+         if(i == timeLimit){
+          clearInterval(timer);
+          modalPopup.classList.add("show");
+         } 
+         console.log(i)
+        },1000);
+  }
+
+
+  close.addEventListener("click",function(){
+    modalPopup.classList.remove("show");
+  })

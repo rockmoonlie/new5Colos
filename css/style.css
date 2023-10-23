@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*
 Project/Template Name:  Freeio - Freelance Marketplace HTML Template
 Template Url: 
@@ -118,7 +119,7 @@ h2{
 }
 
 .card-fronts {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.479);
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -7599,7 +7600,7 @@ header.nav-homepage-style.stricky.stricky-fixed {
   -moz-box-shadow: 0px 5px 20px rgba(91, 187, 123, 0.15);
   -o-box-shadow: 0px 5px 20px rgba(91, 187, 123, 0.15);
   box-shadow: 0px 5px 20px rgba(91, 187, 123, 0.15);
-  z-index: 9;
+  z-index: 100;
   top: 0;
 }
 header.nav-homepage-style.stricky.stricky-fixed .ace-responsive-menu a {
@@ -11818,6 +11819,22 @@ hr {
 
 }
 
+/*links on the hero*/
+.service:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  -moz-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  -o-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 32px;
+  border: 1px solid #fdc110;
+}
+
+.service{
+  display: flex;
+  justify-content: center;
+  padding:0 5px 0 5px;
+}
+
 .popup button{
   width: 100%;
   margin-top: 50px;
@@ -11833,8 +11850,8 @@ hr {
 }
 
 /* Mon popup/modale de la page de connexion */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-*
+
+
 /* {
   margin: 0;
   padding: 0;
@@ -12090,3 +12107,150 @@ img:hover{
   transform:translateZ(20px);
 }
  */
+/*servcice populaire title*/
+
+/* Le css de mon popup modal */
+body{
+	font-family: sans-serif;
+	margin:0;
+	line-height: 1.5;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+
+.modal-popup{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1099;
+	background-color:rgba(0,0,0,0.6);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 1s ease;
+}
+.modal-popup.show{
+	visibility:visible;
+	opacity: 1;
+}
+.modal-popup .box{
+	background-color:#ffffff;
+	width: 750px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	display: flex;
+	flex-wrap: wrap;
+	opacity: 0;
+	margin-left: 50px;
+	transition: all 1s ease;
+
+}
+.modal-popup.show .box{
+	opacity: 1;
+	margin-left: 0;
+}
+.modal-popup .box .img-area{
+	flex:0 0 50%;
+	max-width: 50%;
+	position: relative;
+	overflow: hidden;
+	padding:30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.modal-popup .box .img-area h1{
+	font-size: 30px;
+}
+.modal-popup .box .img-area .img{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-image: url('images/5Colos1.jpg');
+	background-size: cover;
+	background-position: center;
+	animation: zoomInOut 6s linear infinite;
+	z-index: -1;
+}
+
+@keyframes zoomInOut{
+	0%,100%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.1);
+	}
+}
+.modal-popup .box .form{
+	flex:0 0 50%;
+	max-width: 50%;
+	padding:40px 30px;
+}
+
+.modal-popup .box .form h1{
+	color:#000000;
+	font-size: 30px;
+	margin:0 0 30px;
+}
+.modal-popup .box .form .form-control{
+	height: 45px;
+	margin-bottom: 30px;
+	width: 100%;
+	border:none;
+	border-bottom:1px solid #cccccc;
+	font-size: 15px;
+	color:#000000;
+}
+.modal-popup .box .form .form-control:focus{
+	outline: none;
+}
+.modal-popup .box .form label{
+	font-size: 15px;
+	color:#555555;
+}
+.modal-popup .box .form .btn{
+	width: 100%;
+	background-color: #E91E63;
+	margin-top:40px;
+	height: 45px;
+	border:none;
+	border-radius: 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color:#ffffff;
+	cursor: pointer;
+}
+.modal-popup .box .form .btn:focus{
+	outline: none;
+}
+
+.modal-popup .box .form .close{
+	position: absolute;
+	right: 10px;
+	top:0px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+	.modal-popup .box{
+		width: calc(100% - 30px);
+	}
+	.modal-popup .box .img-area{
+		display: none;
+	}
+	.modal-popup .box .form{
+		flex: 0 0 100%;
+        max-width: 100%;
+	}
+}
+
