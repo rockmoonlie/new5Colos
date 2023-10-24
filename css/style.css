@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*
 Project/Template Name:  Freeio - Freelance Marketplace HTML Template
 Template Url: 
@@ -70,7 +71,7 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   margin: 0 10px 0 10px;
 }
 h2{ 
-  margin: 10px;
+  /* margin: 10px; */
   text-align: center;
 }
 .mere{
@@ -118,7 +119,7 @@ h2{
 }
 
 .card-fronts {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.479);
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -156,7 +157,7 @@ margin: 0;
 .section-first{
   position: relative;
   width: 100%; 
-  height: 960px;
+  height: 620px;
   background-image: url("../images/background/Happy-businesswoman-working.jpg");
   background-size: cover;
   /* background-position: center; */
@@ -280,7 +281,7 @@ margin: 0;
 
 .divp{
   width: 100%;
-  height: 100vh;
+  height: 500px;
   position: absolute;
   top: 90px;
   left: 0px;
@@ -3572,6 +3573,7 @@ h2 {
   line-height: 28px;
   padding: 6px 17px;
 }
+
 
 .blog-single-review {
   position: absolute;
@@ -7598,7 +7600,7 @@ header.nav-homepage-style.stricky.stricky-fixed {
   -moz-box-shadow: 0px 5px 20px rgba(91, 187, 123, 0.15);
   -o-box-shadow: 0px 5px 20px rgba(91, 187, 123, 0.15);
   box-shadow: 0px 5px 20px rgba(91, 187, 123, 0.15);
-  z-index: 9;
+  z-index: 100;
   top: 0;
 }
 header.nav-homepage-style.stricky.stricky-fixed .ace-responsive-menu a {
@@ -11817,6 +11819,22 @@ hr {
 
 }
 
+/*links on the hero*/
+.service:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  -moz-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  -o-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 32px;
+  border: 1px solid #fdc110;
+}
+
+.service{
+  display: flex;
+  justify-content: center;
+  padding:0 5px 0 5px;
+}
+
 .popup button{
   width: 100%;
   margin-top: 50px;
@@ -11832,8 +11850,8 @@ hr {
 }
 
 /* Mon popup/modale de la page de connexion */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-*
+
+
 /* {
   margin: 0;
   padding: 0;
@@ -12089,3 +12107,6 @@ img:hover{
   transform:translateZ(20px);
 }
  */
+/*servcice populaire title*/
+
+
