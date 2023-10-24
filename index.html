@@ -21,11 +21,11 @@
 <link rel="stylesheet" href="css/slider.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/ud-custom-spacing.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="css/responsive.css">
 <!-- Title -->
 <title>5Colos</title>
-<!-- Favicon -->
 <!-- Apple Touch Icon -->
 <link href="images/apple-touch-icon-60x60.png" sizes="60x60" rel="apple-touch-icon">
 <link href="images/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
@@ -41,6 +41,36 @@
 
 </head>
 <body>
+
+ <!-- Mon popup de la page d'accueil principale -->
+ <div class="modal-popup">
+  <div class="box">
+     <div class="img-area">
+       <div class="img"></div>
+       <!-- <h1><span style="color: #027f53;">5Colos</span></h1> -->
+     </div>
+     <div class="form">
+       <div class="close">&times;</div>
+       <!-- <h1 style="color: green;">Bienvenue</h1> -->
+       <p style="color: black; font-size: 20px;"><span style="font-weight: bold;">Ecole241</span> lance <span style="font-weight: bold;">"5Colos"</span>, la première plateforme <span  style="color:#027f53;font-weight: bold;">gabonaise de microservices</span>.</p>
+       <form>
+         <div class="form-group">
+           <!-- <input type="text" placeholder="Email" class="form-control"> -->
+         </div>
+         <div class="form-group">
+           <!-- <input type="password" placeholder="Password" class="form-control"> -->
+         </div>
+         <div class="form-group">
+           <!-- <label><input type="checkbox">
+             Remember Me
+           </label> -->
+         </div>
+         <!-- <button type="button" class="btn">Log In</button> -->
+       </form>
+     </div>
+  </div>
+</div>
+
 <div class="wrapper ovh">
   <div class="preloader"></div>
   
@@ -66,26 +96,32 @@
                 </li>
                 <li class="visible_list"> <a class="list-item" href="#"><span class="title">Nos services</span></a>
                   <ul >
-                    <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-developer"></span> <span class="menu-title">Développement web</span></span></a>
+                    <li> <a href="#"><span class="title"><span class="menu-icn flaticon-developer"></span> <span class="menu-title">Développement web</span></span></a>
                       <ul>
-                        <li><a href="page-service-v6 ss-service.html">Front-end</a></li>
-                        <li><a href="page-service-v6 ss-service.html">Back-end</a></li>
-                        <li><a href="page-service-v6 ss-service.html">Site statique</a></li>
-                        <li><a href="page-service-v6 ss-service.html">Site dynamique</a></li>
+
+                        <li><a href="page-service-single-devweb3.html">Refonte de site</a></li>
+                        <li><a href="page-service-single-devweb4.html">Site e-commerce</a></li>
+                        <li><a href="page-service-single-devweb1.html">Site Web</a></li>
+                        <li><a href="page-service-single-devweb2.html">Application web-mobile</a></li>
                       </ul>
                     </li>
-                    <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-web-design-1"></span> <span class="menu-title">Infographie</span></span></a>
+                    <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-web-design-1"></span> <span class="menu-title">Referent digital</span></span></a>
+
                       <ul>
-                        <li><a href="page-service-v6 ss-service.html">Création de logo</a></li>
-                        <li><a href="page-service-v6 ss-service.html">Conception de dépliants et affiches</a></li>
+                        <li><a href="page-service-single-sm-log.html">Création de logo</a></li>
+                        <li><a href="page-service-single-sm-dc.html">Conception de dépliants et affiches</a></li>
                         <li><a href="page-service-v6 ss-service.html">Conception de CV</a></li>
+                        <li><a href="page-service-single-sm-cd.html">Consultant digitaux et réseaux sociaux</a></li>
+                        <li><a href="page-service-single-sm-ccv1.html">Cartes de visite</a></li>
+                        <li><a href="page-service-single-sm-ce.html">Content management des réseaux sociaux</a></li>
+                        <li><a href="page-service-v6 ss-service.html">Cartes de visite</a></li>
                         <li><a href="page-service-v6 ss-service.html">Cartes de visite</a></li>
                       </ul>
                     </li>
                     <li> <a href="page-social-media.html"><span class="title"><span class="menu-icn flaticon-digital-marketing"></span> <span class="menu-title">Médias Sociaux</span></span></a>
                       <ul>
                         <li><a href="page-sm-calendriereditorial.html">Calendrier éditoial</a></li>
-                        <li><a href="page-sm-communitymanager.html.html">Community manager</a></li>
+                        <li><a href="page-service-single-sm-ci.html">Community manager</a></li>
                         <li><a href="page-sm-redactionweb.html">Rédaction web</a></li>
                         <!-- <li><a href="page-service-single.html">Rédaction web</a></li> -->
                       </ul>
@@ -154,7 +190,7 @@
       <ul>
         <li><span>Accueil</span>
         </li>
-        <li><span>Catégories des services</span>
+        <li><span>Nos services</span>
           <ul>
             <li><a href="page-service-v6.html"><span class="title"></span><span>Développement Web</span>
               <ul>
@@ -164,7 +200,7 @@
                 <li><a href="page-service-v6 ss-service.html">Site dynamique</a></li>
               </ul>
             </li>
-            <li><a href="page-service-v6.html"><span class="title"></span><span>Infographie</span>
+            <li><a href="page-service-v6.html"><span class="title"></span><span>Référents digital</span>
               <ul>
                 <li><a href="page-service-v6 ss-service.html">Création de logo</a></li>
                 <li><a href="page-service-v6 ss-service.html">Conception de dépliants et affiches</a></li>
@@ -210,9 +246,9 @@
   <div class="body_content">
     <section class="section-first">
       <div class="conteneur" > 
-         <div class="divp"></div>
+         <!-- <div class="divp"></div> -->
          <div class="texte">    
-          <h1 class="animate-up-1 mb25 text-white">Trouvez <span style="color: #fdc110;">immédiatement</span> le bon <span style="color: #fdc110;">service</span> à moindre <span style="color: #fdc110;">coût</span>. </h1>
+          <h1 class="animate-up-1 mb25 text-white">Trouvez le <span style="color: #fdc110;">service numérique</span> qu'il vous faut à moindre <span style="color: #fdc110;">coût</span>. </h1>
           <p class="text-white animate-up-2" style="font-size:1.5rem">Votre satisfaction, notre <span style="color: #fdc110;">engagement</span> envers vous.<br class="d-none d-lg-block"></p>
           <div class="advance-search-tab bgc-white bgct-sm p10 p0-md bdrs4 banner-btn position-relative zi9">
             <div class="row">
@@ -268,7 +304,7 @@
                   <select class="selectpicker" data-width="100%">
                     <option>Catégories</option>
                     <option data-tokens="Graphics&Design">Développement Web</option>
-                    <option data-tokens="DigitlMarketing">Infographie</option>
+                    <option data-tokens="DigitlMarketing">Référents digital</option>
                     <option data-tokens="Writing&Translation">Médias Sociaux</option>
                     <option data-tokens="Video&Animation">Audio Visuel</option>
                   </select>
@@ -287,7 +323,7 @@
             <a class="text-white" href="page-service-v6.html"style="padding-right: 0.5rem;"> Web,</a>
             <a class="text-white" href="page-service-v6.html"style="padding-right: 0.5rem;"> Designer,</a>
             <a class="text-white" href="page-social-media.html" style="padding-right: 0.5rem;"> Média,</a>
-            <a class="text-white" href="page-service-v6.html" style="padding-right: 0.5rem;"> Infographie,</a>
+            <a class="text-white" href="page-service-v6.html" style="padding-right: 0.5rem;"> Référents digital,</a>
             <a class="text-white" href="page-service-v6.html"> Logo</a>
           </div>
          </div>
@@ -295,10 +331,10 @@
    </section>
 
      <!-- Need something --> 
-     <div class="main-title text-center">
-      <h2>5Colos comment ça marche?</h2>
+     <div class="main-title text-center mt50">
+      <h2><span style="color: green;">5Colos</span> comment ça marche?</h2>
     </div>
-    <div class="mere">
+    <div class="mere pb90">
     
     <!-- C'est la carte principale sur laquelle vont être les images  -->
     <div class="cards">
@@ -312,7 +348,7 @@
             </svg>
             
                 <!--  titre de l'image avant -->
-              <h4>1. Choix du service</h4>
+              <h4><span style="color: green;">1.</span> Choix du service</h4>
           </div>
           <!-- coté arrière -->
           <div class="card-backs"> 
@@ -334,7 +370,7 @@
             <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm12-1v14h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 0H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h9V1z"/>
           </svg>
                <!--  titre de l'image avant -->
-             <h4>2. Choix du sous-service</h4>
+             <h4><span style="color: green;">2.</span> Choix du sous-service</h4>
          </div>
          <!-- coté arrière -->
          <div class="card-backs"> 
@@ -356,12 +392,12 @@
           <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
         </svg>
              <!--  titre de l'image avant -->
-           <h4>3. Choix du package</h4>
+           <h4><span style="color: green;">3.</span> Choix du package</h4>
        </div>
        <!-- coté arrière -->
        <div class="card-backs"> 
            <div class="card-text"> 
-               <p> Puis choisissée le plan de paiement qui vous convient</p>
+               <p> Puis choisissez le plan de paiement qui vous convient</p>
            </div>
        </div>
    </div>
@@ -378,7 +414,7 @@
           <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
         </svg>
              <!--  titre de l'image avant -->
-           <h4>4. Taritement de la Commande</h4>
+           <h4 class="text-center" style="width: 55%;"><span style="color: green;">4.</span> Traitement de la Commande</h4>
        </div>
        <!-- coté arrière -->
        <div class="card-backs"> 
@@ -439,7 +475,7 @@
       </div>
     </section>
     
-    <!-- Nouvelle section services -->
+    Nouvelle section services -->
 
     <!-- Popular Services -->
     <section class="pt-0 pb100">
@@ -448,24 +484,26 @@
           <div class="col-xl-3">
             <div class="main-title mb30-lg">
               <h2 class="title">Services Populaires</h2>
-              <p class="paragraph">Les services les plus vus et les plus vendus</p>
+              <p class="paragraph text-center">Les services les plus vus et les plus vendus</p>
             </div>
           </div>
           <div class="col-xl-9">
             <div class="navpill-style2 at-home9 mb50-lg">
               <ul class="nav nav-pills mb20 justify-content-xl-end" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link active fw500 dark-color" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Developement Web</button>
+                  <button class="nav-link active fw500 dark-color" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Dévelopement Web</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link fw500 dark-color" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Infographie</button>
+
+                  <button class="nav-link fw500 dark-color" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Référents digital</button>
+
                 </li>
                 <li class="nav-item" role="presentation">
                   <button class="nav-link fw500 dark-color" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Médias Sociaux</button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <!-- <li class="nav-item" role="presentation">
                   <button class="nav-link fw500 dark-color" id="pills-music-tab" data-bs-toggle="pill" data-bs-target="#pills-music" type="button" role="tab" aria-controls="pills-music" aria-selected="false">Audio-Visuel</button>
-                </li>
+                </li> -->
                 <!-- <li class="nav-item" role="presentation">
                   <button class="nav-link fw500 dark-color" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video" aria-selected="false">Video & Animation</button>
                 </li> -->
@@ -482,12 +520,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/Frony-End.jpg" alt="" height="250">
+                          <img class="w-100" src="images/site web.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Front-End</p>
-                          <!-- <h5 class="list-title">--><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Site Web</p>
+                          <h5 class="list-title"><a href="page-service-single-devweb1.html">Donnez une présence en ligne exceptionnelle à votre entreprise grâce à notre service de conception de site web</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">60.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -541,7 +581,7 @@
                           <div class="listing-thumbIn-slider position-relative navi_pagi_bottom_center">
                             <!-- slider-1-grid owl-carousel owl-theme -->
                             <div class="item">
-                              <img class="w-100" src="images/site statique (1).jpg" alt="" height="250">
+                              <img class="w-100" src="images/Application web-mobile.jpg" alt="" height="250">
                               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                             </div>
                             <!-- <div class="item">
@@ -559,8 +599,10 @@
                           </div>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Site statique</p>
-                          <!-- <h5 class="list-title">--><a href="page-services-single.html">I will create modern flat design illustration</a></h5> 
+                          <p class="list-text body-color fz14 mb-1">Application Web-Mobile</p>
+                          <h5 class="list-title"><a href="page-service-single-devweb2.html">Transformez vos idées en application avec notre expertise en conception d'applications.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">60.000 Fcfa</span></p> 
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -611,12 +653,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/back-end.jpg" alt="" height="250">
+                          <img class="w-100" src="images/Refonte de site.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Back-end</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Refonte de site</p>
+                          <h5 class="list-title"><a href="page-service-single-devweb3.html">Ajoutez de la modernité, de la performance et de la créativité, pour attirer, convertir et fidéliser votre public.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -667,12 +711,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/site dynamique.jpg" alt="" height="250">
+                          <img class="w-100" src="images/Site E-commerce.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Site dynamique</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will do mobile app development for ios and android</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Site E-commerce</p>
+                          <h5 class="list-title"><a href="page-service-single-devweb4.html">Ouvrez votre boutique en ligne et vendez vos produits grâce à notre service en conception de site e-commerce.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">60.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -732,12 +778,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/Création de logo.jpg" alt="" height="250">
+                          <img class="w-100" src="/images/vue-laterale-homme-dessinant-tablette.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Création de Logo</p>
-                          <!-- <h5 class="list-title"> --><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                          <h5 class="list-title"><a href="page-services-single.html">Créez une image de marque unique pour votre entreprise avec notre service.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -757,14 +805,16 @@
                           </div> -->
                         </div>
                       </div>
-                      <div style="display: none;" class="listing-style1 bdrs16">
-                        <!-- <div class="list-thumb">
-                          <img class="w-100" src="images/listings/g-5.jpg" alt="">
+                      <div class="listing-style1 bdrs16">
+                        <div class="list-thumb">
+                          <img class="w-100" src="images/gros-plan-retoucheur-photos-africain-tenant-stylet-editant-photo-du-client.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                        </div> -->
-                        <div style="display: none;" class="list-content">
-                          <!-- <p class="list-text body-color fz14 mb-1">Web & App Design</p> -->
-                          <!-- <h5 class="list-title"><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5> -->
+                        </div>
+                        <div class="list-content">
+                          <p class="list-text body-color fz14 mb-1">Retouche Photo</p>
+                          <h5 class="list-title"><a href="page-services-single.html">Embellissez vos photos avec nos services de retouche photo. </a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -790,7 +840,7 @@
                         <div class="list-thumb">
                           <div class="listing-thumbIn-slider position-relative navi_pagi_bottom_center">
                             <div class="item">
-                              <img class="w-100" src="images/Conception & Affiche.jpg" alt="" height="250">
+                              <img class="w-100" src="images/affiches .jpg" alt="" height="250">
                               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                             </div>
                             <!-- <div class="item">
@@ -808,8 +858,10 @@
                           </div>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Conception de depliants et affiches</p>
-                          <!-- <h5 class="list-title"> --><a href="page-services-single.html">I will create modern flat design illustration</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Conception d'affiche</p>
+                          <h5 class="list-title"><a href="page-services-single.html">Créez l'impact visuel parfait pour votre campagne avec nos affiches percutantes.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -829,14 +881,16 @@
                           </div>
                         </div>
                       </div>
-                      <div style="display: none;" class="listing-style1 bdrs16">
-                        <!-- <div class="list-thumb">
-                          <img class="w-100" src="images/listings/g-6.jpg" alt="">
+                      <div class="listing-style1 bdrs16">
+                        <div class="list-thumb">
+                          <img class="w-100" src="images/Kakemono.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                        </div> -->
-                        <div style="display: none;" class="list-content">
-                          <!-- <p class="list-text body-color fz14 mb-1">Web & App Design</p> -->
-                          <!-- <h5 class="list-title"> <a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>-->
+                        </div> 
+                        <div class="list-content">
+                          <p class="list-text body-color fz14 mb-1">Kakemono & enseignes</p>
+                          <h5 class="list-title"> <a href="page-services-single.html">Laissez chaque détail refléter l'excellence de votre entreprise.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -860,12 +914,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/Conception carte de visite.jpg" alt="" height="250">
+                          <img class="w-100" src="images/Cartes de visites 2.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Cartes de visites</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                          <h5 class="list-title"><a href="page-services-single.html">Créez les premières impréssions mémorables avec nos cartes de visites.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -885,14 +941,17 @@
                           </div> -->
                         </div>
                       </div>
-                      <div style="display: none;" class="listing-style1 bdrs16">
-                        <!-- <div class="list-thumb">
-                          <img class="w-100" src="images/listings/g-7.jpg" alt="">
+                      <div class="listing-style1 bdrs16">
+                        <div class="list-thumb">
+                          <img class="w-100" src="images/Catalogue & menu 2.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                        </div> -->
-                        <div style="display: none;" class="list-content">
-                          <!-- <p class="list-text body-color fz14 mb-1">Design & Creative</p> -->
-                          <!-- <h5 class="list-title line-clamp2"> <a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>-->
+                        </div>
+                        <div class="list-content">
+                          <p class="list-text body-color fz14 mb-1">Catalogues & menus</p>
+                          <h5 class="list-title"> <a href="page-services-single.html">Sublimez votre entreprise grâce à nos présentations visuelles</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
+                          <!-- "line-clamp2" -->
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -921,7 +980,9 @@
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Conception CV</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will do mobile app development for ios and android</a></h5>
+                          <h5 class="list-title"><a href="page-services-single.html">Façonnez votre avenir professionnel avec un CV qui reflète votre unicité.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -941,14 +1002,16 @@
                           </div> -->
                         </div>
                       </div>
-                      <div style="display: none;"  class="listing-style1 bdrs16">
-                        <!-- <div class="list-thumb">
-                          <img class="w-100" src="images/listings/g-1.jpg" alt="">
+                      <div class="listing-style1 bdrs16">
+                        <div class="list-thumb">
+                          <img class="w-100" src="images/Billets d'invitation.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                        </div> -->
-                        <div style="display: none;" class="list-content">
-                          <!-- <p class="list-text body-color fz14 mb-1">Web & App Design</p> -->
-                          <!-- <h5 class="list-title"> <a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>-->
+                        </div>
+                        <div class="list-content">
+                          <p class="list-text body-color fz14 mb-1">Billets d'invitations</p>
+                          <h5 class="list-title"> <a href="page-services-single.html">Créez des billets d'invitation qui captivent et marquent les esprits.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -976,17 +1039,20 @@
                     </div> -->
                   </div>
                 </div>
+                
                 <div class="tab-pane fade fz15 text" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                   <div class="row">
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/RS.jpg" alt="" height="250">
+                          <img class="w-100" src="images/Consultant en digitalisation.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Gestion des réseaux sociaux</p>
-                          <!-- <h5 class="list-title"> --><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Consultant en digitalisation</p>
+                          <h5 class="list-title"><a href="page-services-single.html">Guidez votre entreprise vers l'ère numérique avec un consultant en digitalisation.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1039,7 +1105,7 @@
                         <div class="list-thumb">
                           <div class="listing-thumbIn-slider position-relative navi_pagi_bottom_center">
                             <div class="item">
-                              <img class="w-100" src="images/Community.jpg" alt="" height="250">
+                              <img class="w-100" src="images/Community manager.jpg" alt="" height="250">
                               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                             </div>
                             <!-- <div class="item">
@@ -1058,7 +1124,9 @@
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Community Manager</p>
-                          <a href="page-services-single.html">I will create modern flat design illustration</a></h5>
+                          <h5 class="list-title"><a href="page-services-single.html">Développez votre présence en ligne avec un Community Manager dédié.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1109,12 +1177,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/content M.jpg" alt="" height="250">
+                          <img class="w-100" src="images/Content manager 4.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Content Manager</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                          <h5 class="list-title"><a href="page-services-single.html">Simplifiez la planification et la création de contenus pour nourrir votre public.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1165,12 +1235,14 @@
                     <div class="col-sm-6 col-xl-3">
                       <div class="listing-style1 bdrs16">
                         <div class="list-thumb">
-                          <img class="w-100" src="images/Consulatnt.jpg" alt="" height="250">
+                          <img class="w-100" src="images/Rédacteur web.jpg" alt="" height="250">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Consultant média sociaux</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will do mobile app development for ios and android</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Rédacteur Web</p>
+                          <h5 class="list-title"><a href="page-services-single.html">Embellissez vos sites et illuminez vos réseaux sociaux grâce à nos rédacteurs web.</a></h5>
+                          <hr>
+                          <p>A partir de <span class="price">5.000 Fcfa</span></p>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1235,7 +1307,7 @@
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Réalisateur</p>
-                          <!-- <h5 class="list-title"> --><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                          <h5 class="list-title"><a href="page-services-single.html">Laissez nos créateurs donner vie à votre vision</a></h5>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1307,7 +1379,7 @@
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Ingénieur du son</p>
-                          <!-- <h5 class="list-title"> --><a href="page-services-single.html">I will create modern flat design illustration</a></h5>
+                          <!-- <h5 class="list-title"> --><a href="page-services-single.html"> Laissez notre équipe d'experts perfectionner l'audiosphère de votre projet.</a></h5>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1363,7 +1435,7 @@
                         </div>
                         <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Directeur de la photographie</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">Laissez-nous capturer la beauté et l'émotion de chaque instant.</a></h5>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1418,8 +1490,8 @@
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                         </div>
                         <div class="list-content">
-                          <p class="list-text body-color fz14 mb-1">Montage audio visuel</p>
-                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">I will do mobile app development for ios and android</a></h5>
+                          <p class="list-text body-color fz14 mb-1">Montage audiovisuel</p>
+                          <!-- <h5 class="list-title line-clamp2"> --><a href="page-services-single.html">Transformez vos images en une histoires captivante avec notre montage vidéo professionnel</a></h5>
                           <!-- <div class="review-meta d-flex align-items-center">
                             <i class="fas fa-star fz10 review-color me-2"></i>
                             <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -1729,167 +1801,7 @@
         </div>
       </div>
     </section>
-       <!-- Trending Services -->
-      <!-- <section class="pb90 pb30-md bgc-thm3">
-        <div style="overflow-x: hidden;" class="container">
-          <div class="row align-items-center wow fadeInUp">
-            <div class="col-lg-9">
-              <div class="main-title">
-                <h2 class="title">Services populaires</h2>
-                <p class="paragraph">Les services les plus vus et les plus vendus</p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="text-start text-lg-end mb-4 mb-lg-2">
-                <a class="ud-btn2" href="page-service-all.html">Tous les services<i class="fal fa-arrow-right-long"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="slider-outer-dib vam_nav_style dots_none slider-4-grid2 owl-carousel owl-theme wow fadeInUp" data-wow-delay="300ms">
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-1.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div class="list-content"> -->
-                  <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Logo conception de mascotte</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-2.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div class="list-content"> -->
-                       <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Billets de fête à la mode et d'événements</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-3.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div style="padding-bottom: 48px;" class="list-content"> -->
-                      <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Dépliant commercial</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-4.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div class="list-content"> -->
-                      <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Bannière Facebook ou LinkedIn</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-5.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div style="padding-bottom: 48px;" class="list-content"> -->
-                       <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Cartes de visite</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-6.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div class="list-content"> -->
-                       <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Retouche photo paysage</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="listing-style1">
-                    <div class="list-thumb">
-                      <img class="w-100" src="images/listings/g-7.jpg" alt="">
-                      <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                    </div>
-                    <div class="list-content"> -->
-                       <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
-                      <!-- <h5 class="list-title"><a href="page-service-single.html">Logo professionnel unique</a></h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-   
-    <!-- Browse talent by category -->
-    <section class="pb40-md pb90">
-      <div class="container">
-        <div class="row align-items-center wow fadeInUp" data-wow-delay="300ms">
-          <div class="col-lg-9">
-            <div class="main-title2">
-              <h2 class="title">Cherchez par Catégories</h2>
-              <p class="paragraph">Trouvez l'inspiration parmi des milliers de talents</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <!-- <div class="text-start text-lg-end mb-4 mb-lg-2">
-              <a class="ud-btn2" href="page-service-single.html">Toutes les Catégories<i class="fal fa-arrow-right-long"></i></a>
-            </div> -->
-          </div>
-        </div>
-        <div class="row d-none d-lg-flex wow fadeInUp">
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div style="display: flex; flex-direction:column; align-items: center;" class="iconbox-style1">
-              <div class="icon"><span class="flaticon-developer"></span></div>
-              <div class="details mt20">
-                <h4 class="title"><a href="page-service-v6.html">Développement web</a></h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div style="display: flex; flex-direction:column; align-items: center;" class="iconbox-style1">
-              <div class="icon"><span class="flaticon-web-design-1"></span></div>
-              <div class="details mt20">
-                <h4 class="title"><a href="page-service-v6.html">Infographie</a></h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div style="display: flex; flex-direction:column; align-items: center;" class="iconbox-style1">
-              <div class="icon"><span class="flaticon-digital-marketing"></span></div>
-              <div class="details mt20">
-                <h4 class="title"><a href="page-social-media.html">Médias Sociaux</a></h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div style="display: flex; flex-direction:column; align-items: center;" class="iconbox-style1">
-              <div class="icon"><span class="flaticon-translator"></span></div>
-              <div class="details mt20">
-                <h4 class="title"><a href="page-service-v6.html">Audio Visuel</a></h4>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
-
+      
     <!-- CTA Banner -->
     <section class="p-0">
       <div class="cta-banner3 bgc-light-yellow mx-auto maxw1600 pt20 pt60-lg pb90 pb60-lg position-relative overflow-hidden">
@@ -1946,10 +1858,10 @@
             <div class="funfact_one mb20-sm text-center">
               <div class="details">
                 <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">834</div></li>
-                  <li><span>M</span></li>
+                  <li><div class="timer"> +5</div></li>
+                  <li><span>ans</span></li>
                 </ul>
-                <p class="text mb-0">Nombres de freelancers</p>
+                <p class="text mb-0">d'experience</p>
               </div>
             </div>
           </div>
@@ -1957,10 +1869,10 @@
             <div class="funfact_one mb20-sm text-center">
               <div class="details">
                 <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">732</div></li>
-                  <li><span>M</span></li>
+                  <li><div class="timer"> +16</div></li>
+                  <li><span></span></li>
                 </ul>
-                <p class="text mb-0">Revues positives</p>
+                <p class="text mb-0">Services numeriques</p>
               </div>
             </div>
           </div>
@@ -1968,14 +1880,14 @@
             <div class="funfact_one mb20-sm text-center">
               <div class="details">
                 <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">90</div></li>
-                  <li><span>M</span></li>
+                  <li><div class="timer">+250</div></li>
+                  <li><span></span></li>
                 </ul>
-                <p class="text mb-0">Commandes reçues</p>
+                <p class="text mb-0"> professionnels</p>
               </div>
             </div>
           </div>
-          <div class="col-3 col-md-2">
+          <!-- <div class="col-3 col-md-2">
             <div class="funfact_one mb20-sm text-center">
               <div class="details">
                 <ul class="ps-0 mb-0 d-flex justify-content-center">
@@ -1993,7 +1905,7 @@
                   <li><div class="timer">0</div></li>
                   <li><span>M</span></li>
                 </ul>
-                <p class="text mb-0">Projets non terminé</p>
+                <p class="text mb-0">Projets non terminé</p> -->
               </div>
             </div>
           </div>
@@ -2125,7 +2037,7 @@
               <div class="link-style1 mb-4 mb-sm-5">
                 <h5 class="text-white mb15">Categories</h5>
                 <ul class="ps-0">
-                  <li><a href="page-service-v6.html">Infographie</a></li>
+                  <li><a href="page-service-v6.html">Référents digital</a></li>
                   <li><a href="page-service-v6.html">Développement web</a></li>
                   <li><a href="page-service-v6.html">Médias sociaux</a></li>
                   <li><a href="page-service-v6.html">Audio visuel</a></li>
@@ -2182,6 +2094,7 @@
 <script src="js/wow.min.js"></script>
 <script src="js/owl.js"></script>
 <script src="js/parallax.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <!-- Custom script for all pages -->
 <script src="js/script.js"></script>
 </body>

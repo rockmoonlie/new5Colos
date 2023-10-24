@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*
 Project/Template Name:  Freeio - Freelance Marketplace HTML Template
 Template Url: 
@@ -118,7 +119,7 @@ h2{
 }
 
 .card-fronts {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.479);
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -156,7 +157,7 @@ margin: 0;
 .section-first{
   position: relative;
   width: 100%; 
-  height: 960px;
+  height: 620px;
   background-image: url("../images/background/Happy-businesswoman-working.jpg");
   background-size: cover;
   /* background-position: center; */
@@ -168,53 +169,119 @@ margin: 0;
 /* Animation des partenaires */
 
 #E241{
-  animation: 2s slider;
-  transition: 0.5;
+  animation: 1s partenaires;
 }
-#E242{
-  
-}
-#E243{
-  
-}
-#E244{
-  
-}
-#E245{
-  
-}
-#E246{
-  
-}
-@keyframes section-first{
+
+@keyframes partenaires{
   0%{
-    background-image: url('');
+    transform: translateX(900px);
   }
-  25%{
-    background-image: url('');
-    
+ 
+  100%{
+    transform: translateX(0px)
+   
   }
-  50%{
-    background-image: url('');
-    
+
+}
+
+/* Animation 2 */
+
+#E242{
+  animation: 2s partenaires2;
+  
+}
+
+@keyframes partenaires2{
+  0%{
+    transform: translateX(900px);
+    transition: 0.5;
   }
-  75%{
-    background-image: url('');
-  }
+
   
   100%{
-    
-    background-image: url('');
+    transform: translateX(0px)
+   
   }
-  /* 100%{
-    background-image: url('../images/about/yellowscarf.jpg');
-  } */
+}
 
+  /* Animation 3 */
+
+#E243{
+  animation: 3s partenaires2;
+}
+@keyframes partenaires3{
+  0%{
+    transform: translateX(900px);
+    transition: 0.5;
+  }
+
+  
+  100%{
+    transform: translateX(0px)
+   
+  }
+}
+
+/* Animation 4 */
+
+#E244{
+  animation: 4s partenaires2;
+}
+
+@keyframes partenaires4{
+  0%{
+    transform: translateX(900px);
+    transition: 0.5;
+  }
+
+  
+  100%{
+    transform: translateX(0px)
+   
+  }
+}
+
+/* Animation 5 */
+
+#E245{
+  animation: 5s partenaires2;
+}
+
+@keyframes partenaires5{
+  0%{
+    transform: translateX(900px);
+    transition: 0.5;
+  }
+
+  
+  100%{
+    transform: translateX(0px)
+   
+  }
+}
+
+/* Animation 6*/
+
+#E246{
+  animation: 6s partenaires2;
+}
+
+@keyframes partenaires6{
+  0%{
+    transform: translateX(900px);
+    transition: 0.5;
+  }
+
+  
+  100%{
+    transform: translateX(0px)
+   
+  }
 }
 
 .divp{
   width: 100%;
-  height: 100vh;
+  height: 500px;
   position: absolute;
   top: 90px;
   left: 0px;
@@ -230,9 +297,18 @@ margin: 0;
 .texte h3{
   color: white;
 
-  /* Animations du slider dans le hero */
+  /
 
-} 
+}
+  /* Style d'aron */
+
+  .price{
+    color: #027f53;
+    font-weight: bold;
+  }
+
+
+ /* Animations du slider dans le hero */
 @keyframes section-first{
   0%{
     background-image: url('../images/background/Happy-businesswoman-working.jpg');
@@ -11743,6 +11819,22 @@ hr {
 
 }
 
+/*links on the hero*/
+.service:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  -moz-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  -o-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 32px;
+  border: 1px solid #fdc110;
+}
+
+.service{
+  display: flex;
+  justify-content: center;
+  padding:0 5px 0 5px;
+}
+
 .popup button{
   width: 100%;
   margin-top: 50px;
@@ -11758,8 +11850,8 @@ hr {
 }
 
 /* Mon popup/modale de la page de connexion */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-*
+
+
 /* {
   margin: 0;
   padding: 0;
@@ -11989,7 +12081,7 @@ input[type="submit"]:active
   width: calc(250px * 12);
   animation: scroll 40s linear infinite;
   /* gap: 100px; */
-}
+
 /* 
 @keyframes scroll {
   0%{
@@ -12015,3 +12107,150 @@ img:hover{
   transform:translateZ(20px);
 }
  */
+/*servcice populaire title*/
+
+/* Le css de mon popup modal */
+body{
+	font-family: sans-serif;
+	margin:0;
+	line-height: 1.5;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+
+.modal-popup{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1099;
+	background-color:rgba(0,0,0,0.6);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 1s ease;
+}
+.modal-popup.show{
+	visibility:visible;
+	opacity: 1;
+}
+.modal-popup .box{
+	background-color:#ffffff;
+	width: 750px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	display: flex;
+	flex-wrap: wrap;
+	opacity: 0;
+	margin-left: 50px;
+	transition: all 1s ease;
+
+}
+.modal-popup.show .box{
+	opacity: 1;
+	margin-left: 0;
+}
+.modal-popup .box .img-area{
+	flex:0 0 50%;
+	max-width: 50%;
+	position: relative;
+	overflow: hidden;
+	padding:30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.modal-popup .box .img-area h1{
+	font-size: 30px;
+}
+.modal-popup .box .img-area .img{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-image: url('images/5Colos1.jpg');
+	background-size: cover;
+	background-position: center;
+	animation: zoomInOut 6s linear infinite;
+	z-index: -1;
+}
+
+@keyframes zoomInOut{
+	0%,100%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.1);
+	}
+}
+.modal-popup .box .form{
+	flex:0 0 50%;
+	max-width: 50%;
+	padding:40px 30px;
+}
+
+.modal-popup .box .form h1{
+	color:#000000;
+	font-size: 30px;
+	margin:0 0 30px;
+}
+.modal-popup .box .form .form-control{
+	height: 45px;
+	margin-bottom: 30px;
+	width: 100%;
+	border:none;
+	border-bottom:1px solid #cccccc;
+	font-size: 15px;
+	color:#000000;
+}
+.modal-popup .box .form .form-control:focus{
+	outline: none;
+}
+.modal-popup .box .form label{
+	font-size: 15px;
+	color:#555555;
+}
+.modal-popup .box .form .btn{
+	width: 100%;
+	background-color: #E91E63;
+	margin-top:40px;
+	height: 45px;
+	border:none;
+	border-radius: 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color:#ffffff;
+	cursor: pointer;
+}
+.modal-popup .box .form .btn:focus{
+	outline: none;
+}
+
+.modal-popup .box .form .close{
+	position: absolute;
+	right: 10px;
+	top:0px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+	.modal-popup .box{
+		width: calc(100% - 30px);
+	}
+	.modal-popup .box .img-area{
+		display: none;
+	}
+	.modal-popup .box .form{
+		flex: 0 0 100%;
+        max-width: 100%;
+	}
+}
+
