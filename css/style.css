@@ -70,7 +70,7 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   margin: 0 10px 0 10px;
 }
 h2{ 
-  margin: 10px;
+  /* margin: 10px; */
   text-align: center;
 }
 .mere{
@@ -3497,6 +3497,7 @@ h2 {
   line-height: 28px;
   padding: 6px 17px;
 }
+
 
 .blog-single-review {
   position: absolute;
