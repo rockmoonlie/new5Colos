@@ -303,7 +303,7 @@ margin: 0;
   /* Style d'aron */
 
   .price{
-    color: #027f53;
+    color: #dc2626;
     font-weight: bold;
   }
 
@@ -8400,7 +8400,7 @@ li.mm-listitem:focus {
   box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
   border-radius: 32px;
   border: 1px solid #E9E9E9;
-  color: #5BBB7B;
+  color: #dc2626;
 }
 
 .navtab-style1,
