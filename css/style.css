@@ -4705,16 +4705,16 @@ section {
   background-color: #ffffff;
   border-radius: 8px;
   margin-bottom: 30px;
-  padding: 40px 30px 30px;
   position: relative;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  height: 100%;
 }
 .iconbox-style1 .icon {
-  color: #1F4B3F;
+  color: #dc2626;
   display: inline-block;
   font-size: 40px;
   position: relative;
@@ -4755,12 +4755,15 @@ section {
 .iconbox-style1.contact-style:hover {
   box-shadow: none;
 }
+
+
 .iconbox-style1.border-less {
   border: none;
-}
+}/*
 .iconbox-style1.border-less:hover {
   box-shadow: none;
 }
+*/
 .iconbox-style1.at-home4 .icon {
   border-radius: 50%;
   -webkit-box-shadow: 0px 25px 70px rgba(1, 33, 58, 0.07);
@@ -11880,19 +11883,7 @@ hr {
   padding:0 5px 0 5px;
 }
 
-.popup button{
-  width: 100%;
-  margin-top: 50px;
-  padding: 10px 0;
-  background: #6fd649;
-  color: #fff;
-  border: 0;
-  outline: none;
-  font-size: 18px;
-  border-radius: 4px;
-  cursor: pointer;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 /* Mon popup/modale de la page de connexion */
 
@@ -12154,4 +12145,33 @@ img:hover{
  */
 /*servcice populaire title*/
 
+/*css qui était sur html*/
 
+.row1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap ;
+  margin-top: 3%;
+  align-items: center;
+  gap:1.5rem;
+ }
+
+ 
+ 
+ .box{
+    text-align: center;
+    width:30%;
+    height: 200px;
+ }
+
+ 
+ .titre{
+   margin-left: calc(-16.1 * var(--bs-gutter-x));
+ }
+ 
+ .titre1{
+   text-align: left;
+ }
+
+ 
