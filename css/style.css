@@ -6674,8 +6674,8 @@ textarea {
 }
 
 .btn-thm {
-  background-color: #5BBB7B;
-  border: 2px solid #5BBB7B;
+  background-color: #DC2626;
+  border: 2px solid #DC2626;
   color: #ffffff;
 }
 
@@ -6692,6 +6692,7 @@ textarea {
   border-width: 2px;
 }
 
+/*pour les boutons*/
 .ud-btn:before,
 .btn-gray:before,
 .btn-dark:before,
@@ -6708,7 +6709,7 @@ textarea {
 .btn-light-gray:before,
 .btn-transparent:before,
 .btn-transparent2:before {
-  background-color: #5BBB7B;
+  background-color: #DC2626;
   content: "";
   height: 100%;
   left: -100%;
@@ -6747,7 +6748,7 @@ textarea {
 .btn-light-gray:hover,
 .btn-transparent:hover,
 .btn-transparent2:hover {
-  color: #ffffff;
+  color: #fff;
 }
 .ud-btn:hover:before,
 .btn-gray:hover:before,
@@ -6780,18 +6781,18 @@ textarea {
 }
 
 .btn-dark:hover {
-  background-color: #5BBB7B;
-  border: 1px solid #5BBB7B;
+  background-color: #DC2626;
+  border: 1px solid #DC2626;
 }
 
 .btn-thm-border {
   background-color: #ffffff;
-  border: 2px solid #5BBB7B;
-  color: #5BBB7B;
+  border: 2px solid #DC2626;
+  color: #000;
 }
 .btn-thm-border:hover {
-  background-color: #5BBB7B;
-  border: 2px solid #5BBB7B;
+  background-color: #DC2626;
+  border: 2px solid #DC2626;
 }
 
 .btn-dark-border {
