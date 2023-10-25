@@ -78,6 +78,7 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .card-sections {
   display: flex;
@@ -1684,6 +1685,12 @@ h2 {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
+.mytitles{
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .listing-style1 .list-title a:hover {
   text-decoration: underline;
   text-decoration-color: #dc2626;
@@ -1913,6 +1920,12 @@ h2 {
 }
 .listing-style1.dashboard-style .list-text {
   margin-bottom: 0px;
+}
+
+/*service pop title*/
+.tituler{
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.884);
 }
 
 .tag-del {
@@ -6681,8 +6694,8 @@ textarea {
 }
 
 .btn-thm {
-  background-color: #141414;
-  border: 2px solid #141414;
+  background-color: #DC2626;
+  border: 2px solid #DC2626;
   color: #ffffff;
 }
 
@@ -6699,6 +6712,7 @@ textarea {
   border-width: 2px;
 }
 
+/*pour les boutons*/
 .ud-btn:before,
 .btn-gray:before,
 .btn-dark:before,
@@ -6715,7 +6729,7 @@ textarea {
 .btn-light-gray:before,
 .btn-transparent:before,
 .btn-transparent2:before {
-  background-color: #d92626;
+  background-color: #DC2626;
   content: "";
   height: 100%;
   left: -100%;
@@ -6754,7 +6768,7 @@ textarea {
 .btn-light-gray:hover,
 .btn-transparent:hover,
 .btn-transparent2:hover {
-  color: #ffffff;
+  color: #fff;
 }
 .ud-btn:hover:before,
 .btn-gray:hover:before,
@@ -6787,18 +6801,18 @@ textarea {
 }
 
 .btn-dark:hover {
-  background-color: #5BBB7B;
-  border: 1px solid #5BBB7B;
+  background-color: #DC2626;
+  border: 1px solid #DC2626;
 }
 
 .btn-thm-border {
   background-color: #ffffff;
-  border: 2px solid #5BBB7B;
-  color: #5BBB7B;
+  border: 2px solid #DC2626;
+  color: #000;
 }
 .btn-thm-border:hover {
-  background-color: #5BBB7B;
-  border: 2px solid #5BBB7B;
+  background-color: #DC2626;
+  border: 2px solid #DC2626;
 }
 
 .btn-dark-border {
@@ -9005,6 +9019,19 @@ input:focus-visible {
   box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
 }
 
+/*5colos avantages*/
+.retouche{
+  font-weight: 600;
+  font-size: 1.7rem;
+  width: 500px;
+}
+
+@media (max-width: 575.98px) {
+  .retouche{
+    width: 100%;
+  }
+}
+
 /*	Shop Single Page	*/
 .shop-single .nav-link {
   border: 1px solid #E9E9E9;
@@ -9058,6 +9085,15 @@ input:focus-visible {
   .shopping_cart_table .coupon_input {
     width: auto;
   }
+}
+
+/*cartes des services*/
+.hauteur{
+  height: 500px;
+}
+
+.largeur{
+  width: 126%;
 }
 
 .quantity-arrow-minus,
