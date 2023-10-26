@@ -313,6 +313,27 @@ margin: 0;
     font-weight: bold;
   }
 
+  .titre{
+    color: #dc2626;
+  }
+/* Couleur des prix des packages pour le sous-service logo de conception de mascotte*/
+  #pack1{
+  color: #dc2626;
+}
+  #pack2{
+    color: #dc2626;
+  }
+
+  #pack3{
+    color: #dc2626;
+  }
+  #pack4{
+    color: #dc2626;
+  }
+  #pack5{
+    color: #dc2626;
+  }
+
 
  /* Animations du slider dans le hero */
 @keyframes section-first{
@@ -9258,6 +9279,7 @@ input:focus-visible {
 }
 .service-single-sldier.vam_nav_style.owl-theme .owl-nav button.owl-prev {
   left: 30px;
+  display: none;
 }
 @media (max-width: 767.98px) {
   .service-single-sldier.vam_nav_style.owl-theme .owl-nav button.owl-prev {
@@ -9270,6 +9292,7 @@ input:focus-visible {
 }
 .service-single-sldier.vam_nav_style.owl-theme .owl-nav button.owl-next {
   right: 30px;
+  display: none;
 }
 @media (max-width: 767.98px) {
   .service-single-sldier.vam_nav_style.owl-theme .owl-nav button.owl-next {
