@@ -302,10 +302,30 @@ margin: 0;
 }
 .texte h3{
   color: white;
-
-  /
-
 }
+
+@media screen and (max-width: 500px) {
+  .text-white{
+    font-size: 25px;
+  }  
+  
+  .texte{
+      width: 90%;
+      left: 20px;
+      font-size: 8px;
+    }
+
+  .title{
+    font-size: 9px;
+  }
+
+  .largeur{
+    width: 100% !important;
+  }
+
+  
+}
+
   /* Style d'aron */
 
   .price{
