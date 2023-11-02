@@ -3539,6 +3539,9 @@ margin-top: 50px !important;
 /* `sm` applies to x-small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 /*	Padding*/
+.m125{
+    padding-left: 0px !important ;
+  }
 	.p0-xs {
 	padding: 0 !important;
 	}.p5{
